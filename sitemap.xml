@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://premislaus.github.io/19/02/2021/Georg-Trakl-Verfall/</loc>
+    
+    <lastmod>2021-02-19</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://premislaus.github.io/19/02/2021/Chluszcze-i-chloszcze/</loc>
     
     <lastmod>2021-02-19</lastmod>
@@ -627,6 +634,13 @@
   </url>
   
   <url>
+    <loc>https://premislaus.github.io/tags/King-Dude/</loc>
+    <lastmod>2021-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://premislaus.github.io/tags/Epistolografia/</loc>
     <lastmod>2021-02-19</lastmod>
     <changefreq>daily</changefreq>
@@ -965,14 +979,14 @@
   </url>
   
   <url>
-    <loc>https://premislaus.github.io/categories/Liryzm/Poezja/</loc>
+    <loc>https://premislaus.github.io/categories/Liryzm/Tlumaczenia/</loc>
     <lastmod>2021-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://premislaus.github.io/categories/Liryzm/Tlumaczenia/</loc>
+    <loc>https://premislaus.github.io/categories/Liryzm/Poezja/</loc>
     <lastmod>2021-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
