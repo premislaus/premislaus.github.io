@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://premislaus.github.io</id>
+    <title>τέχνη • Posts by &#34;brutalizm&#34; tag</title>
+    <link href="https://premislaus.github.io" />
+    <updated>2020-08-03T18:19:08.000Z</updated>
+    <category term="BSD" />
+    <category term="Haiku" />
+    <category term="UX" />
+    <category term="Programowanie" />
+    <category term="Brutalizm" />
+    <category term="Filozofia" />
+    <category term="Wzornictwo" />
+    <category term="WebDev" />
+    <category term="Lifestyle" />
+    <category term="Eros" />
+    <category term="Metafizyka" />
+    <category term="Paged Out!" />
+    <category term="e-zin" />
+    <category term="Demoscena" />
+    <category term="Ernst Jünger" />
+    <category term="Leo Strauss" />
+    <category term="Oswald Spengler" />
+    <category term="Heidegger" />
+    <category term="Nietzsche" />
+    <category term="Roland Barthes" />
+    <category term="Dasein" />
+    <category term="Rilke" />
+    <category term="digiKam" />
+    <category term="Depresja" />
+    <category term="Psychopharmakon" />
+    <category term="Psychiatryk" />
+    <category term="Jura" />
+    <category term="Diarystyka" />
+    <category term="Albert Camus" />
+    <category term="Max Stirner" />
+    <category term="Tomasz Gabiś" />
+    <category term="Jaromir Brejdak" />
+    <category term="Zaratustra" />
+    <category term="Gilles Deleuze" />
+    <category term="Trakl" />
+    <category term="Epistolografia" />
+    <category term="Juliette" />
+    <category term="Daemonia Nymphe" />
+    <category term="Koder" />
+    <category term="Scintilla" />
+    <category term="Birch Book" />
+    <category term="Mitologia" />
+    <category term="Psychonautyka" />
+    <category term="Trance" />
+    <category term="Forseti" />
+    <category term="Neofolk" />
+    <category term="Andreas Ritter" />
+    <category term="Resentyment" />
+    <category term="Pier Paolo Pasolini" />
+    <category term="Cukunft" />
+    <category term="Tokarczuk" />
+    <category term="Houellebecq" />
+    <category term="Literatura" />
+    <category term="Psychoparmakon" />
+    <category term="Paul-Albert Besnard" />
+    <category term="Malarstwo" />
+    <category term="Heathcliff" />
+    <category term="Rammstein" />
+    <category term="Społeczeństwo spektaklu" />
+    <category term="Guy Debord" />
+    <category term="Burroughs" />
+    <category term="Klaus Schulze" />
+    <category term="Robert Filliou" />
+    <category term="Ekspresjonizm" />
+    <category term="Typografia" />
+    <category term="Hexo" />
+    <category term="CSS" />
+    <category term="Next" />
+    <category term="Zimna fala" />
+    <category term="Leopold Staff" />
+    <category term="Creative Commons" />
+    <category term="Julia Kristeva" />
+    <category term="Jacques Derrida" />
+    <category term="Seneka Młodszy" />
+    <category term="Foucault" />
+    <category term="Giorgio Colli" />
+    <category term="Georges Perec" />
+    <entry>
+        <id>https://premislaus.github.io/03/08/2020/Beton-brut-WebDev/</id>
+        <title>Béton brut WebDev</title>
+        <link rel="alternate" href="https://premislaus.github.io/03/08/2020/Beton-brut-WebDev/"/>
+        <content type="html">&lt;p&gt;&lt;a href=&#34;https://lawsofux.com/&#34;&gt;&lt;strong&gt;Prawa rządzące wzornictwem przemysłowym&lt;/strong&gt;&lt;/a&gt; wprost proporcjonalnie przekładają się na &lt;strong&gt;doświadczenie użytkowania (UX)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/03/08/2020/Beton-brut-WebDev/ui_ux.jpg&#34; alt=&#34;Dychotomia UI względem UX. Prawa autorskie nieznane.&#34;&gt;&lt;/p&gt;
+&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;
+&lt;h3 id=&#34;Brutalizm&#34;&gt;&lt;a class=&#34;header-anchor&#34; href=&#34;#Brutalizm&#34;&gt;¶&lt;/a&gt;Brutalizm&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://brutalist-web.design/&#34;&gt;Ta strona posiada &lt;strong&gt;minimalne animacje&lt;/strong&gt;&lt;/a&gt;, tj. przejścia z wyłaniającym się tekstem, co odpowiada ich &lt;em&gt;biologicznemu materiałowi&lt;/em&gt; w postaci &lt;strong&gt;jaźni&lt;/strong&gt;, gdy wśród &lt;em&gt;kartografii psyche&lt;/em&gt; następują &lt;strong&gt;przebłyski reminiscencji&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote id=&#39;wiki-Truth_to_materials&#39;&gt;&lt;script&gt;
+    window.addEventListener(&#39;load&#39;, function() {
+      $.getJSON(&#39;https://en.wikipedia.org/w/api.php?action=query&amp;origin=*&amp;prop=extracts&amp;format=json&amp;exintro=&amp;titles=Truth_to_materials&#39;, function(result) {
+        const pages = result.query.pages;
+        const firstPageIndex = Object.keys(pages)[0];
+        const extract = pages[firstPageIndex].extract;
+        $(&#39;#wiki-Truth_to_materials&#39;).prepend(extract);
+      });
+    });
+  &lt;/script&gt;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Truth_to_materials&#34;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Ta strona mogłaby działać odrobinę szybciej, ale &lt;a href=&#34;https://github.com/theme-next/hexo-filter-optimize&#34;&gt;&lt;strong&gt;usunąłem wtyczkę odpowiedzialną za optymalizacje CSS i JavaScriptu&lt;/strong&gt;&lt;/a&gt; bowiem psuła ona ikony prowadzące do mediów społecznościowych. Są one jak chorągwie na polu bitwy, skoro wyróżniają &lt;strong&gt;informację&lt;/strong&gt; prowadzącą do uzyskania &lt;strong&gt;dalszych informacji&lt;/strong&gt;, pośród &lt;a href=&#34;https://justinjackson.ca/words_pl.html&#34;&gt;&lt;strong&gt;czeredy słów&lt;/strong&gt;&lt;/a&gt;, bez jakich ta strona nie mogłaby istnieć, dlatego że &lt;strong&gt;na początku było słowo&lt;/strong&gt;, a ich tkanka tekstualna jest tłusta. Nieraz i w dziesięć tysięcy, i więcej, znaków.&lt;/p&gt;
+&lt;p&gt;Na moment włączyłem wtyczkę umieszczającą pod postami przyciski udostępniające treść w mediach społecznościowych. &lt;strong&gt;Właśnie ją usunąłem&lt;/strong&gt;, mimo że zależy mi na popularności; odejmowanie kodu także stanowi zysk. Wyglądało to jak redundantny las bilbordów, jak kolorowy badziew odpustu. Na panelu, po lewej, są linki do mojego GitHuba, Twittera i e-mail. Disqus także umożliwia udostępnianie.&lt;/p&gt;
+&lt;p&gt;Dlaczego więc ją wcześniej dałem? Ponieważ użytkownicy smartfonów nie zawsze wiedzą jak skopiować link. Użytkownicy smartfonów nie zobaczą także, że niektóre z artykułów posiadają tabelę zawartości, w celu łatwego nawigowania. Prawdopodobnie zostanie to naprawione wraz z przyszłymi aktualizacjami tematu, jakiego wykorzystuję. Inaczej samemu go zhackuję. Próbowałem powiększyć „logo” poprzez &lt;a href=&#34;https://theme-next.js.org/docs/advanced-settings.html&#34;&gt;wstrzyknięcie funkcji&lt;/a&gt;, tj. utworzenie katalogu i pliku z kodem w odpowiedniej ścieżce, ale to nie zadziałało. Będę musiał zgłosić błąd i przesłać im tłumaczenie na polski, mojego autorstwa.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/03/08/2020/Beton-brut-WebDev/architektura_cccp.jpg&#34; alt=&#34;Okładka czasopisma radzieckich architektów, jakiego zasoby są dostępne bezpłatnie w internecie, totalarch.com.&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Estetyzm&#34;&gt;&lt;a class=&#34;header-anchor&#34; href=&#34;#Estetyzm&#34;&gt;¶&lt;/a&gt;Estetyzm&lt;/h3&gt;
+&lt;p&gt;Wyjątek stanowi animacja ładowania pojawiająca się w prawym, górnym, rogu okna przeglądarki WWW. Mógłbym dorobić do tego teorię, ale prawdą jest, że włączyłem to tylko dla ozdoby i nie zarzyna ona mojego, dolnopółkowego, procesora &lt;a href=&#34;http://www.cpu-world.com/CPUs/Bulldozer/AMD-A6-Series%20A6-4400M.html&#34;&gt;&lt;strong&gt;AMD A6-4400M&lt;/strong&gt;&lt;/a&gt; z 2012 roku. Jednakże pusty estetyzm nowoczesnego oprogramowania przysłania nadmierne zużycie zasobów i braki w funkcjach, jest odpowiednikiem dobrych manier i wysokiej kultury, czasów wiktoriańskich, jakimi to zasłaniano niewolnictwo i nędzę świata wokół, pompatyczną biedę świata wirtualnego.&lt;/p&gt;
+&lt;p&gt;Ponadto kliknięcie lewym przyciskiem myszy rysuje w tle wstążkę. Przeważnie różową albo fioletową, niekiedy zieloną, a bywa że i niebieską. Nie czyni mnie ona bardziej inkluzywnym. Kojarzy mi się ona z wysokimi i szczupłymi kobietami, jakie w sukienkach jeżdżą na rowerach, mają wiklinowy koszyk, a niekiedy kapelusz. Jest to ładunek erotyczny, jakże istotny dla mężczyzny. Nadto przypomina to projekt graficzny &lt;a href=&#34;https://www.jetbrains.com/&#34;&gt;JetBrains&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;Dziewczyny-ogladaja-sie-za-Haiku&#34;&gt;&lt;a class=&#34;header-anchor&#34; href=&#34;#Dziewczyny-ogladaja-sie-za-Haiku&#34;&gt;¶&lt;/a&gt;Dziewczyny oglądają się za Haiku&lt;/h3&gt;
+&lt;p&gt;Interfejs graficzny Haiku był udoskonalany przez lata. Poprawiano odstępy i pozycję poszczególnych elementów GUI, aby ukazała ona perfekcję. &lt;a href=&#34;https://git.haiku-os.org/haiku/log/?qt=author&amp;amp;q=John+Scipione&#34;&gt;&lt;strong&gt;Były to subtelne zmiany, jakie następowały gradualnie&lt;/strong&gt;&lt;/a&gt;, na przestrzeni lat. &lt;strong&gt;Ponadto płaskie ikony, bez cieni, dobre są tylko do pasków narzędzi.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brak radykalnych zmian w wyglądzie nie oznacza petryfikacji&lt;/strong&gt;, lecz ustanawia stabilność dzięki której od razu można stwierdzić, że winny jest sterownik karty graficznej lub app_server, a nie &lt;a href=&#34;https://www.haiku-os.org/docs/userguide/pl/tracker.html&#34;&gt;&lt;strong&gt;Tracker&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Domyślnie dobrane barwy przywodzą mi na myśl biurowiec, gmach ze szkła i stali, w jakim to podejmowane są decyzje, choćby o rozstrzelaniu, tamże dokonuje się też praca. Rewolucyjna.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/03/08/2020/Beton-brut-WebDev/git_pull.png&#34; alt=&#34;Bauhaus.&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="Haiku" />
+        <category term="UX" />
+        <category term="Programowanie" />
+        <category term="Brutalizm" />
+        <category term="Filozofia" />
+        <category term="Wzornictwo" />
+        <category term="WebDev" />
+        <category term="Lifestyle" />
+        <updated>2020-08-03T18:19:08.000Z</updated>
+    </entry>
+</feed>

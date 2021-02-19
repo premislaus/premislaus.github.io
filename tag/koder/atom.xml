@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://premislaus.github.io</id>
+    <title>τέχνη • Posts by &#34;koder&#34; tag</title>
+    <link href="https://premislaus.github.io" />
+    <updated>2020-07-30T10:42:02.000Z</updated>
+    <category term="BSD" />
+    <category term="Haiku" />
+    <category term="UX" />
+    <category term="Programowanie" />
+    <category term="Brutalizm" />
+    <category term="Filozofia" />
+    <category term="Wzornictwo" />
+    <category term="WebDev" />
+    <category term="Lifestyle" />
+    <category term="Eros" />
+    <category term="Metafizyka" />
+    <category term="Paged Out!" />
+    <category term="e-zin" />
+    <category term="Demoscena" />
+    <category term="Ernst Jünger" />
+    <category term="Leo Strauss" />
+    <category term="Oswald Spengler" />
+    <category term="Heidegger" />
+    <category term="Nietzsche" />
+    <category term="Roland Barthes" />
+    <category term="Dasein" />
+    <category term="Rilke" />
+    <category term="digiKam" />
+    <category term="Depresja" />
+    <category term="Psychopharmakon" />
+    <category term="Psychiatryk" />
+    <category term="Jura" />
+    <category term="Diarystyka" />
+    <category term="Albert Camus" />
+    <category term="Max Stirner" />
+    <category term="Tomasz Gabiś" />
+    <category term="Jaromir Brejdak" />
+    <category term="Zaratustra" />
+    <category term="Gilles Deleuze" />
+    <category term="Trakl" />
+    <category term="Epistolografia" />
+    <category term="Juliette" />
+    <category term="Daemonia Nymphe" />
+    <category term="Koder" />
+    <category term="Scintilla" />
+    <category term="Birch Book" />
+    <category term="Mitologia" />
+    <category term="Psychonautyka" />
+    <category term="Trance" />
+    <category term="Forseti" />
+    <category term="Neofolk" />
+    <category term="Andreas Ritter" />
+    <category term="Resentyment" />
+    <category term="Pier Paolo Pasolini" />
+    <category term="Cukunft" />
+    <category term="Tokarczuk" />
+    <category term="Houellebecq" />
+    <category term="Literatura" />
+    <category term="Psychoparmakon" />
+    <category term="Paul-Albert Besnard" />
+    <category term="Malarstwo" />
+    <category term="Heathcliff" />
+    <category term="Rammstein" />
+    <category term="Społeczeństwo spektaklu" />
+    <category term="Guy Debord" />
+    <category term="Burroughs" />
+    <category term="Klaus Schulze" />
+    <category term="Robert Filliou" />
+    <category term="Ekspresjonizm" />
+    <category term="Typografia" />
+    <category term="Hexo" />
+    <category term="CSS" />
+    <category term="Next" />
+    <category term="Zimna fala" />
+    <category term="Leopold Staff" />
+    <category term="Creative Commons" />
+    <category term="Julia Kristeva" />
+    <category term="Jacques Derrida" />
+    <category term="Seneka Młodszy" />
+    <category term="Foucault" />
+    <category term="Giorgio Colli" />
+    <category term="Georges Perec" />
+    <entry>
+        <id>https://premislaus.github.io/30/07/2020/Koder-0-5-3/</id>
+        <title>Koder 0.5.3</title>
+        <link rel="alternate" href="https://premislaus.github.io/30/07/2020/Koder-0-5-3/"/>
+        <content type="html">&lt;h3 id=&#34;Koder&#34;&gt;&lt;a class=&#34;header-anchor&#34; href=&#34;#Koder&#34;&gt;¶&lt;/a&gt;Koder&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/KapiX/Koder&#34;&gt;&lt;strong&gt;Koder&lt;/strong&gt;&lt;/a&gt;, autorstwa &lt;a href=&#34;https://github.com/KapiX&#34;&gt;&lt;strong&gt;KapiXa&lt;/strong&gt;&lt;/a&gt;, stanowi natywny edytor programistyczny dla &lt;a href=&#34;/18/07/2020/Haiku-R1-beta2-na-produkcji/&#34;&gt;&lt;strong&gt;systemu operacyjnego Haiku&lt;/strong&gt;&lt;/a&gt;, który został oparty o &lt;a href=&#34;https://www.scintilla.org/&#34;&gt;&lt;strong&gt;bibliotekę Scintilla&lt;/strong&gt;&lt;/a&gt;, jaka dostarcza &lt;a href=&#34;http://m.in&#34;&gt;m.in&lt;/a&gt;. wszelkie niezbędne formatowania programistom, w celu zachowania ich produktywności na właściwym poziomie. Koder w połączeniu z funkcją Haiku &lt;a href=&#34;https://www.haiku-os.org/docs/userguide/pl/gui.html#stack-tile&#34;&gt;&lt;strong&gt;Stack &amp;amp; Tile&lt;/strong&gt;&lt;/a&gt;, staje się nadwyraz potężnym narzędziem, dlatego że mogę przypinać okna bokami lub grupować je w karty. Toteż zapomniałem o istnieniu menedżerów okien wdrażających kafelkowe grupowanie okien, &lt;a href=&#34;https://i3wm.org/&#34;&gt;&lt;strong&gt;w stylu i3&lt;/strong&gt;&lt;/a&gt;, jakie miewają problemy z przedstawieniem okien swobodnych. Niejednokrotnie mam otwartych kilkanaście instancji Kodera, obok emulatora terminala, przeglądarki WWW WebPositive, klienta IRC Vision i pozostałych narzędzi wymaganych przeze mnie w procesie tworzenia. Koder pozostaje stabilny i zaraz po otwarciu &lt;strong&gt;zużywa zaledwie 4,22 MiB pamięci RAM&lt;/strong&gt;. Właśnie ta lekkość i wykorzystanie natywnego API, a także prawidłowe robienie jednej rzeczy, wydają się typowe dla polskiej myśli programistycznej &lt;strong&gt;(Kacper jest naszym rodakiem)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/30/07/2020/Koder-0-5-3/koder_dark.png&#34; alt=&#34;Główne okno Kodera wraz ze stylem dark, przez co wygląda nowocześnie.&#34;&gt;&lt;/p&gt;
+&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;
+&lt;h3 id=&#34;Estetyka&#34;&gt;&lt;a class=&#34;header-anchor&#34; href=&#34;#Estetyka&#34;&gt;¶&lt;/a&gt;Estetyka&lt;/h3&gt;
+&lt;p&gt;Jestem wyjątkowo wdzięczny człowiekowi który utworzył styl kolorystyczny &lt;strong&gt;purpleriot&lt;/strong&gt; dla Kodera, jest on dla mnie czytelny, jak i cieszy oko estetycznie dobraną paletą barw. Przynajmniej jeśli chodzi o Markdown. Z ciekawości zmieniłem kolorowanie składni z Markdown na C++ i zacząłem wpisywać &lt;em&gt;#include&lt;/em&gt; i okazało się ono ledwie widoczne w tymże układzie barw. Po kilku eksperymentach zdecydowałem się jednak na układ dark. Ponadto Koder wykorzystuje płaskie ikony wektorowe dla paska narzędzi, &lt;a href=&#34;https://rawgit.com/HaikuArchives/ZumisIcons/master/myhaiku/&#34;&gt;&lt;strong&gt;autorstwa zuMiego&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/30/07/2020/Koder-0-5-3/koder_purpleriot.png&#34; alt=&#34;Główne okno Kodera, wraz ze stylem purpleriot.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Moje dotychczasowe doświadczenie z edytorami programistycznymi wiąże się, przeważnie, z modyfikowaniem gier na Windowsie, przy użyciu &lt;strong&gt;Notepad++&lt;/strong&gt;. Na Linuksie zaś wykorzystuję na ogół &lt;strong&gt;vi&lt;/strong&gt; bowiem bywa, iż muszę dostosować pod siebie skrypty systemowe, choćby wprowadzjąc ścieżki do GRUBa, co wymaga uprawnień administratora (niezalecanych w trybie GUI). Tak to korzystam z &lt;strong&gt;Kate&lt;/strong&gt; dostarczanego przez KDE, kiedy tworzę pliki sh dla gier korzystających z WINE i pragnę użyć DRI_PRIME lub wymusić obsługę wyższej wersji OpenGL.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/30/07/2020/Koder-0-5-3/koder_zakladki.png&#34; alt=&#34;Zakładki w Koderze. Ustawić je można klikając obok numeru wiersza.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Koder posiada &lt;strong&gt;opcję zakładek&lt;/strong&gt;. Za ich sprawą możemy zaznaczyć ważką partię kodu i przenieść się do niej skrótem klawiszowym. Oczywiście ustawimy w Koderze &lt;strong&gt;zawijanie linii&lt;/strong&gt;, &lt;strong&gt;podkreślanie białych znaków&lt;/strong&gt; czy też &lt;strong&gt;moment w jakim kończy się linia&lt;/strong&gt;. Jest możliwe &lt;strong&gt;wyświetlenie pionowej linii sugerującej, że właśnie osiągnęliśmy limit 80 znaków&lt;/strong&gt; na wiersz bądź ich uprzednio zdefiniowaną przez użytkownika wartość. Koder cechuje też zdolność &lt;strong&gt;odnalezienia danego tekstu i zastąpienią go nowym&lt;/strong&gt;, &lt;strong&gt;obcięcia wiodącego białego znaku&lt;/strong&gt; czy też &lt;strong&gt;zamiany tabulacji na spacje&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Uważam, że Koder jest &lt;strong&gt;conajmniej poprawnym edytorem tekstu&lt;/strong&gt;, &lt;strong&gt;działa szybko&lt;/strong&gt; i &lt;strong&gt;stabilnie&lt;/strong&gt;. Jest także &lt;strong&gt;przykładem tego, jak tworzyć oprogramowanie na Haiku&lt;/strong&gt; i &lt;strong&gt;dowodem na to, że same porty nie są rozwiązaniem bolączek trapiących Haiku&lt;/strong&gt;, na polu dostępnego oprogramowania. &lt;strong&gt;Tylko natywne API&lt;/strong&gt; zrzuci z nas brzemię zależności ważących nieraz setki megabajtów albo wyczuwalnego braku konsystencji w GUI. &lt;strong&gt;Przede wszystkim natywne oprogramowanie działa zauważalnie szybciej.&lt;/strong&gt; Wyobrażam sobie, że w przyszłości Koder nabierze bardziej zaawansowanych funkcji, dzięki mocy otwartego kodu i będzie powodem dla niektórych, aby posiadać instalację Haiku.&lt;/p&gt;
+&lt;h3 id=&#34;Niuanse&#34;&gt;&lt;a class=&#34;header-anchor&#34; href=&#34;#Niuanse&#34;&gt;¶&lt;/a&gt;Niuanse&lt;/h3&gt;
+&lt;p&gt;Do wad Kodera zaliczyłbym fakt &lt;strong&gt;nie obsługiwania przez niego sprawdzania pisowni&lt;/strong&gt;, mimo że w HaikuDepot odnajdziemy programy do sprawdzania pisowani, choćby &lt;strong&gt;MySpell&lt;/strong&gt; czy &lt;strong&gt;GNU Aspell&lt;/strong&gt;. Jest to dla mnie pożądana funkcja, w wielu przypadkach mógłbym zrezygnować z procesora tekstu Writer, z pakietu biurowego LibreOffice. &lt;strong&gt;Koder nie wprowadza także automatycznego uzupełniania kodu&lt;/strong&gt; i póki co &lt;strong&gt;nie zapewnia też wykonywania komend&lt;/strong&gt;. Chętnie połączyłbym owe z generowaniem stron w Hexo i otwarciem ich podglądu w WebPositive, na localhoście. Niemniej mogę skorzystać ze skrótu klawiszowego &lt;strong&gt;lewy ALT + D&lt;/strong&gt;, aby skopiować do nowej linii zawartość poprzedniego wiersza. Jest to przydatne, gdy wprowadzam np. kolejne linki lub obrazki. Przydałoby się też zliczanie znaków, sprzed i po wprowadzeniu znaczników.&lt;/p&gt;
+&lt;h3 id=&#34;Futurologia&#34;&gt;&lt;a class=&#34;header-anchor&#34; href=&#34;#Futurologia&#34;&gt;¶&lt;/a&gt;Futurologia&lt;/h3&gt;
+&lt;p&gt;Ciekawe byłoby rozwinięcie Kodera do rodzaju „procesora tekstu”. Za pomocą LaTeXa lub jakiegoś prostego języka znaczników opisywalibyśmy dokument (byleby posiadał justowanie i interlinię), jego szkielet i treść, następnie otrzymywali podgląd na żywo w oknie bocznym, aby skompilować go do PDF, podpisanego kluczem PGP. Być może w przyszłości autor lub ktoś ze społeczności Haiku wprowadzi do Kodera system pluginów, jaki umożliwiłby powyższe działanie. &lt;strong&gt;Koder nie jest i nie będzie IDE&lt;/strong&gt;, ale nie zmienia to faktu, że można go połączyć z innymi programami bowiem &lt;strong&gt;Koder i Haiku uosabiają w sobie ducha UNIXa&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/30/07/2020/Koder-0-5-3/koder_about.png&#34; alt=&#34;Lista autorów i podziękowań dowodzi znaczenia Kodera w ekosystemie programowym Haiku.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Kod źródłowy Kodera jest dystrybuowany &lt;a href=&#34;https://pl.wikipedia.org/wiki/Licencja_MIT&#34;&gt;na licencji MIT&lt;/a&gt;.&lt;/p&gt;
+</content>
+        <category term="Haiku" />
+        <category term="UX" />
+        <category term="Programowanie" />
+        <category term="Koder" />
+        <category term="Scintilla" />
+        <updated>2020-07-30T10:42:02.000Z</updated>
+    </entry>
+</feed>

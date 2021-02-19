@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://premislaus.github.io</id>
+    <title>τέχνη • Posts by &#34;bsd&#34; tag</title>
+    <link href="https://premislaus.github.io" />
+    <updated>2020-08-07T11:31:53.000Z</updated>
+    <category term="BSD" />
+    <category term="Haiku" />
+    <category term="UX" />
+    <category term="Programowanie" />
+    <category term="Brutalizm" />
+    <category term="Filozofia" />
+    <category term="Wzornictwo" />
+    <category term="WebDev" />
+    <category term="Lifestyle" />
+    <category term="Eros" />
+    <category term="Metafizyka" />
+    <category term="Paged Out!" />
+    <category term="e-zin" />
+    <category term="Demoscena" />
+    <category term="Ernst Jünger" />
+    <category term="Leo Strauss" />
+    <category term="Oswald Spengler" />
+    <category term="Heidegger" />
+    <category term="Nietzsche" />
+    <category term="Roland Barthes" />
+    <category term="Dasein" />
+    <category term="Rilke" />
+    <category term="digiKam" />
+    <category term="Depresja" />
+    <category term="Psychopharmakon" />
+    <category term="Psychiatryk" />
+    <category term="Jura" />
+    <category term="Diarystyka" />
+    <category term="Albert Camus" />
+    <category term="Max Stirner" />
+    <category term="Tomasz Gabiś" />
+    <category term="Jaromir Brejdak" />
+    <category term="Zaratustra" />
+    <category term="Gilles Deleuze" />
+    <category term="Trakl" />
+    <category term="Epistolografia" />
+    <category term="Juliette" />
+    <category term="Daemonia Nymphe" />
+    <category term="Koder" />
+    <category term="Scintilla" />
+    <category term="Birch Book" />
+    <category term="Mitologia" />
+    <category term="Psychonautyka" />
+    <category term="Trance" />
+    <category term="Forseti" />
+    <category term="Neofolk" />
+    <category term="Andreas Ritter" />
+    <category term="Resentyment" />
+    <category term="Pier Paolo Pasolini" />
+    <category term="Cukunft" />
+    <category term="Tokarczuk" />
+    <category term="Houellebecq" />
+    <category term="Literatura" />
+    <category term="Psychoparmakon" />
+    <category term="Paul-Albert Besnard" />
+    <category term="Malarstwo" />
+    <category term="Heathcliff" />
+    <category term="Rammstein" />
+    <category term="Społeczeństwo spektaklu" />
+    <category term="Guy Debord" />
+    <category term="Burroughs" />
+    <category term="Klaus Schulze" />
+    <category term="Robert Filliou" />
+    <category term="Ekspresjonizm" />
+    <category term="Typografia" />
+    <category term="Hexo" />
+    <category term="CSS" />
+    <category term="Next" />
+    <category term="Zimna fala" />
+    <category term="Leopold Staff" />
+    <category term="Creative Commons" />
+    <category term="Julia Kristeva" />
+    <category term="Jacques Derrida" />
+    <category term="Seneka Młodszy" />
+    <category term="Foucault" />
+    <category term="Giorgio Colli" />
+    <category term="Georges Perec" />
+    <entry>
+        <id>https://premislaus.github.io/07/08/2020/Banzai/</id>
+        <title>Banzai!</title>
+        <link rel="alternate" href="https://premislaus.github.io/07/08/2020/Banzai/"/>
+        <content type="html">&lt;p&gt;&lt;strong&gt;Banzai! NetBSD kończy dzisiaj 10000 dni!&lt;/strong&gt; Z tej okazji można dokonać nalotu bombowego na jakąś senną miejscowość, w celu jej rozerwania odpowiednią oprawą pirotechniczną… Wybaczcie, właśnie skończyłem oglądać „Tora, Tora, Tora”!&lt;/p&gt;
+&lt;p&gt;Piszę te słowa nie tyle na prośbę &lt;em&gt;technomaga&lt;/em&gt; &lt;strong&gt;ryoshu&lt;/strong&gt; z kanału #netbsd-pl na Freenode, co są to moje przemyślenia, jako nie-użytkownika NetBSD. Pomijając fakt, że jest to data warta odnotowania. Mój wkład do NetBSD, poza dekowaniem na #netbsd-pl, jest podobny do jednego płatka, kwiatu wiśni, spośród wzlatającej, wśród sadu, sakury. Mianowicie, trzy lata temu, wgrałem na pendrajwa obraz NetBSD i dokonałem rozruchu, po czym &lt;a href=&#34;https://gnats.netbsd.org/cgi-bin/query-pr-single.pl?number=51953&#34;&gt;zgłosiłem błąd&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kimihiro Nonaka&lt;/strong&gt; szybko się z tym uporał i jeśli czytasz moje życzenia na NetBSD, zainstalowanym na platformie EFI z procesorem AMD, to być może dlatego, że mi się chciało. Właśnie to, że nam się chce odróżnia nas od reszty i łączy, a nie tylko stos sieciowy!&lt;/p&gt;
+&lt;p&gt;NetBSD zapada w pamięć bowiem jej społeczność jest serdeczna w obyciu, obsługuje wiele architektur i posiada przejrzystość niedostępną Linuksowi. Nie wynika ona z domniemanej ubogości, ale z projektu. Piszę te słowa na Haiku.&lt;/p&gt;
+&lt;p&gt;Niech Wasze brody rosną długie, a wskazania w systat pozostaną niskie!&lt;/p&gt;
+</content>
+        <category term="BSD" />
+        <updated>2020-08-07T11:31:53.000Z</updated>
+    </entry>
+</feed>

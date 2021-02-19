@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.1.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/logo-via-logohub.png" color="#222">
+  <link rel="manifest" href="/images/site.webmanifest">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1.0.2/themes/blue/pace-theme-corner-indicator.css">
+  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"premislaus.github.io","root":"/","scheme":"Gemini","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Szukam...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}};
+  </script>
+
+  <meta name="description" content="Prawa rządzące wzornictwem przemysłowym wprost proporcjonalnie przekładają się na doświadczenie użytkowania (UX).">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Béton brut WebDev">
+<meta property="og:url" content="https://premislaus.github.io/03/08/2020/Beton-brut-WebDev/index.html">
+<meta property="og:site_name" content="τέχνη">
+<meta property="og:description" content="Prawa rządzące wzornictwem przemysłowym wprost proporcjonalnie przekładają się na doświadczenie użytkowania (UX).">
+<meta property="og:locale">
+<meta property="og:image" content="https://premislaus.github.io/03/08/2020/Beton-brut-WebDev/ui_ux.jpg">
+<meta property="og:image" content="https://premislaus.github.io/03/08/2020/Beton-brut-WebDev/architektura_cccp.jpg">
+<meta property="og:image" content="https://premislaus.github.io/03/08/2020/Beton-brut-WebDev/git_pull.png">
+<meta property="article:published_time" content="2020-08-03T18:19:08.000Z">
+<meta property="article:modified_time" content="2020-08-03T18:19:08.000Z">
+<meta property="article:author" content="Przemysław Pintal">
+<meta property="article:tag" content="Haiku">
+<meta property="article:tag" content="UX">
+<meta property="article:tag" content="Programowanie">
+<meta property="article:tag" content="Brutalizm">
+<meta property="article:tag" content="Filozofia">
+<meta property="article:tag" content="Wzornictwo">
+<meta property="article:tag" content="WebDev">
+<meta property="article:tag" content="Lifestyle">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://premislaus.github.io/03/08/2020/Beton-brut-WebDev/ui_ux.jpg">
+
+
+<link rel="canonical" href="https://premislaus.github.io/03/08/2020/Beton-brut-WebDev/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'pl'
+  };
+</script>
+
+  <title>Béton brut WebDev | τέχνη</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174149718-1"></script>
+    <script>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-174149718-1');
+      }
+    </script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Przełącz pasek nawigacji">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">τέχνη</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">„Digital dreams crossing over the sea, welcome to the deadlock of reality” - Skaven.</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Strona domowa</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>O stronie</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Kategorie<span class="badge">12</span></a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tagi<span class="badge">77</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archiwa<span class="badge">47</span></a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Tabela zawartości
+        </li>
+        <li class="sidebar-nav-overview">
+          Zawartość strony
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Brutalizm"><span class="nav-number">1.</span> <span class="nav-text">Brutalizm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Estetyzm"><span class="nav-number">2.</span> <span class="nav-text">Estetyzm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Dziewczyny-ogladaja-sie-za-Haiku"><span class="nav-number">3.</span> <span class="nav-text">Dziewczyny oglądają się za Haiku</span></a></li></ol></div>
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Przemysław Pintal"
+      src="/images/bez_brody.jpg">
+  <p class="site-author-name" itemprop="name">Przemysław Pintal</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">47</span>
+          <span class="site-state-item-name">wiadomości</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">kategorii</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">77</span>
+        <span class="site-state-item-name">tagów</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/premislaus" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;premislaus" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:premislaus1988@protonmail.com" title="E-Mail → mailto:premislaus1988@protonmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/premislaus1988" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;premislaus1988" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://instagram.com/przemyslawpintal" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;przemyslawpintal" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </section>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+      
+
+      
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="pl">
+    <link itemprop="mainEntityOfPage" href="https://premislaus.github.io/03/08/2020/Beton-brut-WebDev/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/bez_brody.jpg">
+      <meta itemprop="name" content="Przemysław Pintal">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="τέχνη">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Béton brut WebDev
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Zamieszczone w</span>
+
+      <time title="Utworzone: 03-08-2020 20:19:08" itemprop="dateCreated datePublished" datetime="2020-08-03T20:19:08+02:00">03-08-2020</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">W</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Open-Source/" itemprop="url" rel="index"><span itemprop="name">Open Source</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Liryzm/" itemprop="url" rel="index"><span itemprop="name">Liryzm</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Open-Source/Haiku/" itemprop="url" rel="index"><span itemprop="name">Haiku</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Liryzm/Interpretacje/" itemprop="url" rel="index"><span itemprop="name">Interpretacje</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/03/08/2020/Beton-brut-WebDev/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="03/08/2020/Beton-brut-WebDev/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><a target="_blank" rel="noopener" href="https://lawsofux.com/"><strong>Prawa rządzące wzornictwem przemysłowym</strong></a> wprost proporcjonalnie przekładają się na <strong>doświadczenie użytkowania (UX)</strong>.</p>
+<p><img src="/03/08/2020/Beton-brut-WebDev/ui_ux.jpg" alt="Dychotomia UI względem UX. Prawa autorskie nieznane."></p>
+<a id="more"></a>
+<h3 id="Brutalizm"><a class="header-anchor" href="#Brutalizm">¶</a>Brutalizm</h3>
+<p><a target="_blank" rel="noopener" href="https://brutalist-web.design/">Ta strona posiada <strong>minimalne animacje</strong></a>, tj. przejścia z wyłaniającym się tekstem, co odpowiada ich <em>biologicznemu materiałowi</em> w postaci <strong>jaźni</strong>, gdy wśród <em>kartografii psyche</em> następują <strong>przebłyski reminiscencji</strong>.</p>
+<blockquote id='wiki-Truth_to_materials'><script>
+    window.addEventListener('load', function() {
+      $.getJSON('https://en.wikipedia.org/w/api.php?action=query&origin=*&prop=extracts&format=json&exintro=&titles=Truth_to_materials', function(result) {
+        const pages = result.query.pages;
+        const firstPageIndex = Object.keys(pages)[0];
+        const extract = pages[firstPageIndex].extract;
+        $('#wiki-Truth_to_materials').prepend(extract);
+      });
+    });
+  </script><p><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Truth_to_materials">Wikipedia</a></p></blockquote>
+<p>Ta strona mogłaby działać odrobinę szybciej, ale <a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-filter-optimize"><strong>usunąłem wtyczkę odpowiedzialną za optymalizacje CSS i JavaScriptu</strong></a> bowiem psuła ona ikony prowadzące do mediów społecznościowych. Są one jak chorągwie na polu bitwy, skoro wyróżniają <strong>informację</strong> prowadzącą do uzyskania <strong>dalszych informacji</strong>, pośród <a target="_blank" rel="noopener" href="https://justinjackson.ca/words_pl.html"><strong>czeredy słów</strong></a>, bez jakich ta strona nie mogłaby istnieć, dlatego że <strong>na początku było słowo</strong>, a ich tkanka tekstualna jest tłusta. Nieraz i w dziesięć tysięcy, i więcej, znaków.</p>
+<p>Na moment włączyłem wtyczkę umieszczającą pod postami przyciski udostępniające treść w mediach społecznościowych. <strong>Właśnie ją usunąłem</strong>, mimo że zależy mi na popularności; odejmowanie kodu także stanowi zysk. Wyglądało to jak redundantny las bilbordów, jak kolorowy badziew odpustu. Na panelu, po lewej, są linki do mojego GitHuba, Twittera i e-mail. Disqus także umożliwia udostępnianie.</p>
+<p>Dlaczego więc ją wcześniej dałem? Ponieważ użytkownicy smartfonów nie zawsze wiedzą jak skopiować link. Użytkownicy smartfonów nie zobaczą także, że niektóre z artykułów posiadają tabelę zawartości, w celu łatwego nawigowania. Prawdopodobnie zostanie to naprawione wraz z przyszłymi aktualizacjami tematu, jakiego wykorzystuję. Inaczej samemu go zhackuję. Próbowałem powiększyć „logo” poprzez <a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/advanced-settings.html">wstrzyknięcie funkcji</a>, tj. utworzenie katalogu i pliku z kodem w odpowiedniej ścieżce, ale to nie zadziałało. Będę musiał zgłosić błąd i przesłać im tłumaczenie na polski, mojego autorstwa.</p>
+<p><img src="/03/08/2020/Beton-brut-WebDev/architektura_cccp.jpg" alt="Okładka czasopisma radzieckich architektów, jakiego zasoby są dostępne bezpłatnie w internecie, totalarch.com."></p>
+<h3 id="Estetyzm"><a class="header-anchor" href="#Estetyzm">¶</a>Estetyzm</h3>
+<p>Wyjątek stanowi animacja ładowania pojawiająca się w prawym, górnym, rogu okna przeglądarki WWW. Mógłbym dorobić do tego teorię, ale prawdą jest, że włączyłem to tylko dla ozdoby i nie zarzyna ona mojego, dolnopółkowego, procesora <a target="_blank" rel="noopener" href="http://www.cpu-world.com/CPUs/Bulldozer/AMD-A6-Series%20A6-4400M.html"><strong>AMD A6-4400M</strong></a> z 2012 roku. Jednakże pusty estetyzm nowoczesnego oprogramowania przysłania nadmierne zużycie zasobów i braki w funkcjach, jest odpowiednikiem dobrych manier i wysokiej kultury, czasów wiktoriańskich, jakimi to zasłaniano niewolnictwo i nędzę świata wokół, pompatyczną biedę świata wirtualnego.</p>
+<p>Ponadto kliknięcie lewym przyciskiem myszy rysuje w tle wstążkę. Przeważnie różową albo fioletową, niekiedy zieloną, a bywa że i niebieską. Nie czyni mnie ona bardziej inkluzywnym. Kojarzy mi się ona z wysokimi i szczupłymi kobietami, jakie w sukienkach jeżdżą na rowerach, mają wiklinowy koszyk, a niekiedy kapelusz. Jest to ładunek erotyczny, jakże istotny dla mężczyzny. Nadto przypomina to projekt graficzny <a target="_blank" rel="noopener" href="https://www.jetbrains.com/">JetBrains</a>.</p>
+<h3 id="Dziewczyny-ogladaja-sie-za-Haiku"><a class="header-anchor" href="#Dziewczyny-ogladaja-sie-za-Haiku">¶</a>Dziewczyny oglądają się za Haiku</h3>
+<p>Interfejs graficzny Haiku był udoskonalany przez lata. Poprawiano odstępy i pozycję poszczególnych elementów GUI, aby ukazała ona perfekcję. <a target="_blank" rel="noopener" href="https://git.haiku-os.org/haiku/log/?qt=author&amp;q=John+Scipione"><strong>Były to subtelne zmiany, jakie następowały gradualnie</strong></a>, na przestrzeni lat. <strong>Ponadto płaskie ikony, bez cieni, dobre są tylko do pasków narzędzi.</strong></p>
+<p><strong>Brak radykalnych zmian w wyglądzie nie oznacza petryfikacji</strong>, lecz ustanawia stabilność dzięki której od razu można stwierdzić, że winny jest sterownik karty graficznej lub app_server, a nie <a target="_blank" rel="noopener" href="https://www.haiku-os.org/docs/userguide/pl/tracker.html"><strong>Tracker</strong></a>.</p>
+<p>Domyślnie dobrane barwy przywodzą mi na myśl biurowiec, gmach ze szkła i stali, w jakim to podejmowane są decyzje, choćby o rozstrzelaniu, tamże dokonuje się też praca. Rewolucyjna.</p>
+<p><img src="/03/08/2020/Beton-brut-WebDev/git_pull.png" alt="Bauhaus."></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>Autor tekstu:  </strong>Przemysław Pintal
+  </li>
+  <li class="post-copyright-link">
+      <strong>Link do tekstu: </strong>
+      <a href="https://premislaus.github.io/03/08/2020/Beton-brut-WebDev/" title="Béton brut WebDev">https://premislaus.github.io/03/08/2020/Beton-brut-WebDev/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Prawa autorskie:  </strong>Wszystkie artykuły na tej stronie dystrybuowane są na licencji <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> chyba że wskazano inaczej.
+  </li>
+</ul>
+</div>
+
+          
+
+  <div class="followme">
+    <span>Zapraszam na pozostałe kanały dystrybucji treści</span>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://twitter.com/premislaus1988">
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+
+            <span class="label">Twitter</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/rss.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+          <div class="post-tags">
+              <a href="/tags/Haiku/" rel="tag"><i class="fa fa-tag"></i> Haiku</a>
+              <a href="/tags/UX/" rel="tag"><i class="fa fa-tag"></i> UX</a>
+              <a href="/tags/Programowanie/" rel="tag"><i class="fa fa-tag"></i> Programowanie</a>
+              <a href="/tags/Brutalizm/" rel="tag"><i class="fa fa-tag"></i> Brutalizm</a>
+              <a href="/tags/Filozofia/" rel="tag"><i class="fa fa-tag"></i> Filozofia</a>
+              <a href="/tags/Wzornictwo/" rel="tag"><i class="fa fa-tag"></i> Wzornictwo</a>
+              <a href="/tags/WebDev/" rel="tag"><i class="fa fa-tag"></i> WebDev</a>
+              <a href="/tags/Lifestyle/" rel="tag"><i class="fa fa-tag"></i> Lifestyle</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/01/08/2020/Czasopismo-Paged-Out/" rel="prev" title="Czasopismo „Paged Out!” a haikunautyka.">
+                  <i class="fa fa-chevron-left"></i> Czasopismo „Paged Out!” a haikunautyka.
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/" rel="next" title="Typografia. Dobór fontów w Haiku i kroje pisma w internecie.">
+                  Typografia. Dobór fontów w Haiku i kroje pisma w internecie. <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+  
+  
+  
+
+
+
+      
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      
+
+      
+
+<div class="copyright">
+  
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-globe"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Przemysław Pintal</span>
+</div>
+  <div class="powered-by">Napędzane przez <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="//cdn.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<script>
+document.querySelectorAll('.pdfobject-container').forEach(element => {
+  const url = element.dataset.target;
+  const pdfOpenParams = {
+    navpanes : 0,
+    toolbar  : 0,
+    statusbar: 0,
+    pagemode : 'thumbs',
+    view     : 'FitH'
+  };
+  const pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+  const fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+
+  if (NexT.utils.supportsPDFs()) {
+    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
+  } else {
+    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
+  }
+});
+</script>
+
+
+<script>
+if (document.querySelectorAll('.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8.6.4/dist/mermaid.min.js', () => {
+    mermaid.init({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    }, '.mermaid');
+  }, window.mermaid);
+}
+</script>
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://techne-1.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://premislaus.github.io/03/08/2020/Beton-brut-WebDev/";
+    this.page.identifier = "03/08/2020/Beton-brut-WebDev/";
+    this.page.title = "Béton brut WebDev";
+    };
+  NexT.utils.loadComments('#disqus_thread', () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://techne-1.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
+</script>
+
+</body>
+</html>

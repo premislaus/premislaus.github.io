@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.1.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/logo-via-logohub.png" color="#222">
+  <link rel="manifest" href="/images/site.webmanifest">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1.0.2/themes/blue/pace-theme-corner-indicator.css">
+  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"premislaus.github.io","root":"/","scheme":"Gemini","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Szukam...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}};
+  </script>
+
+  <meta name="description" content="¶Zamiast DejaVu mamy Noto. Uważam, że domyślnie dobrane fonty w Haiku i ich rozmiary są niefortunne, dlatego je zmieniłem. Szczególnie, że zacząłem niedowidzieć dwa lata temu, ale nie kupiłem jeszcze">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Typografia. Dobór fontów w Haiku i kroje pisma w internecie.">
+<meta property="og:url" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/index.html">
+<meta property="og:site_name" content="τέχνη">
+<meta property="og:description" content="¶Zamiast DejaVu mamy Noto. Uważam, że domyślnie dobrane fonty w Haiku i ich rozmiary są niefortunne, dlatego je zmieniłem. Szczególnie, że zacząłem niedowidzieć dwa lata temu, ale nie kupiłem jeszcze">
+<meta property="og:locale">
+<meta property="og:image" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/echelog_tango_down.png">
+<meta property="og:image" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/terminal_fonty_1.png">
+<meta property="og:image" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/terminal_fonty_2.png">
+<meta property="og:image" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/tracker_deskbar_1.png">
+<meta property="og:image" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/tracker_deskbar_2.png">
+<meta property="og:image" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/liberation_sans_14.png">
+<meta property="og:image" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/liberation_serif_14.png">
+<meta property="og:image" content="https://premislaus.github.io/18/07/2020/Haiku-R1-beta2-na-produkcji/fontboy.png">
+<meta property="og:image" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/techne_logo_1.jpg">
+<meta property="og:image" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/techne_logo_2.jpg">
+<meta property="og:image" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/techne_artykul_1.jpg">
+<meta property="og:image" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/techne_artykul_2.jpg">
+<meta property="og:image" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/to_nie_bug_brak_nawiasu.png">
+<meta property="article:published_time" content="2020-08-05T00:10:41.000Z">
+<meta property="article:modified_time" content="2020-08-05T00:10:41.000Z">
+<meta property="article:author" content="Przemysław Pintal">
+<meta property="article:tag" content="Haiku">
+<meta property="article:tag" content="UX">
+<meta property="article:tag" content="Programowanie">
+<meta property="article:tag" content="Wzornictwo">
+<meta property="article:tag" content="WebDev">
+<meta property="article:tag" content="Lifestyle">
+<meta property="article:tag" content="Typografia">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="CSS">
+<meta property="article:tag" content="Next">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/echelog_tango_down.png">
+
+
+<link rel="canonical" href="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'pl'
+  };
+</script>
+
+  <title>Typografia. Dobór fontów w Haiku i kroje pisma w internecie. | τέχνη</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174149718-1"></script>
+    <script>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-174149718-1');
+      }
+    </script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Przełącz pasek nawigacji">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">τέχνη</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">„Digital dreams crossing over the sea, welcome to the deadlock of reality” - Skaven.</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Strona domowa</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>O stronie</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Kategorie<span class="badge">12</span></a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tagi<span class="badge">77</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archiwa<span class="badge">47</span></a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Tabela zawartości
+        </li>
+        <li class="sidebar-nav-overview">
+          Zawartość strony
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Zamiast-DejaVu-mamy-Noto"><span class="nav-number">1.</span> <span class="nav-text">Zamiast DejaVu mamy Noto.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Porownanie-fontow-i-ich-rozmiarow"><span class="nav-number">2.</span> <span class="nav-text">Porównanie fontów i ich rozmiarów.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Instalowanie-fontow-w-systemie-operacyjnym-Haiku"><span class="nav-number">3.</span> <span class="nav-text">Instalowanie fontów w systemie operacyjnym Haiku.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Zmiana-fontow-na-%CF%84%CE%AD%CF%87%CE%BD%CE%B7"><span class="nav-number">4.</span> <span class="nav-text">Zmiana fontów na τέχνη.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Konfigurowanie-tematu-Next-z-ukladem-Gemini-na-silniku-Hexo"><span class="nav-number">5.</span> <span class="nav-text">Konfigurowanie tematu Next, z układem Gemini, na silniku Hexo.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#config-next-yml"><span class="nav-number">6.</span> <span class="nav-text">_config.next.yml</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#font-face"><span class="nav-number">7.</span> <span class="nav-text">@font-face</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Unexpected-EOS"><span class="nav-number">8.</span> <span class="nav-text">Unexpected EOS!</span></a></li></ol></div>
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Przemysław Pintal"
+      src="/images/bez_brody.jpg">
+  <p class="site-author-name" itemprop="name">Przemysław Pintal</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">47</span>
+          <span class="site-state-item-name">wiadomości</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">kategorii</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">77</span>
+        <span class="site-state-item-name">tagów</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/premislaus" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;premislaus" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:premislaus1988@protonmail.com" title="E-Mail → mailto:premislaus1988@protonmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/premislaus1988" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;premislaus1988" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://instagram.com/przemyslawpintal" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;przemyslawpintal" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </section>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+      
+
+      
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="pl">
+    <link itemprop="mainEntityOfPage" href="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/bez_brody.jpg">
+      <meta itemprop="name" content="Przemysław Pintal">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="τέχνη">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Typografia. Dobór fontów w Haiku i kroje pisma w internecie.
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Zamieszczone w</span>
+
+      <time title="Utworzone: 05-08-2020 02:10:41" itemprop="dateCreated datePublished" datetime="2020-08-05T02:10:41+02:00">05-08-2020</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">W</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Open-Source/" itemprop="url" rel="index"><span itemprop="name">Open Source</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Open-Source/Haiku/" itemprop="url" rel="index"><span itemprop="name">Haiku</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h3 id="Zamiast-DejaVu-mamy-Noto"><a class="header-anchor" href="#Zamiast-DejaVu-mamy-Noto">¶</a>Zamiast DejaVu mamy Noto.</h3>
+<p>Uważam, że domyślnie dobrane fonty w Haiku i ich rozmiary są niefortunne, dlatego je zmieniłem. Szczególnie, że zacząłem niedowidzieć dwa lata temu, ale nie kupiłem jeszcze okularów (widzę gorzej w słabszym świetle, mam wadę minus). <a target="_blank" rel="noopener" href="https://git.haiku-os.org/haiku/commit/?id=945566ff43583e4f8102b4440c88f53dae775cb4"><strong>Kiedy w 2016 roku zmieniono domyślne fonty z rodziny DejaVu na Noto</strong></a>, to na <strong>#haiku-pl</strong>, <a target="_blank" rel="noopener" href="https://freenode.net/"><strong>na Freenode</strong></a>, toczyła się ożywiona dyskusja na ten temat. <a target="_blank" rel="noopener" href="https://echelog.com/?haiku"><strong>Niestety Echelog jest już nieczynny</strong></a>, więc nie jestem w stanie przywołać argumentów, jakie wtedy padły.</p>
+<p><img src="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/echelog_tango_down.png" alt="Echelog Tango Down!"></p>
+<p>Pamiętam, że pośród Polaków tylko mnie podobało się Noto. Po latach jednak zmieniłem zdanie, ówcześnie fonty z tej rodziny wydawały się wyglądać <em>nowocześniej</em>. Tym razem jednak zdecydowałem się na krój pisma z rodziy <a target="_blank" rel="noopener" href="https://pl.wikipedia.org/wiki/Liberation_(fonty)"><strong>Liberation</strong></a>, z wyjątkiem dla Terminala i <a href="/30/07/2020/Koder-0-5-3/"><strong>Kodera</strong></a>, gdzie ustawiłem <a target="_blank" rel="noopener" href="https://pl.wikipedia.org/wiki/DejaVu"><strong>DejaVu Sans Mono</strong></a>. Najważniejsze jest jednak to, że wraz ze zwiększeniem rozmiaru fontów, subiektywnie poprawiła się estetyka GUI. <strong>Dlatego że GUI w Haiku skaluje się wraz z rozmiarem fontów.</strong></p>
+<h3 id="Porownanie-fontow-i-ich-rozmiarow"><a class="header-anchor" href="#Porownanie-fontow-i-ich-rozmiarow">¶</a>Porównanie fontów i ich rozmiarów.</h3>
+<div class="tabs" id="porównanie-fontów-i-ich-rozmiarów"><ul class="nav-tabs"><li class="tab active"><a href="#porównanie-fontów-i-ich-rozmiarów-1">Terminal: Noto Sans Mono 12</a></li><li class="tab"><a href="#porównanie-fontów-i-ich-rozmiarów-2">Terminal: DejaVu Mono 14</a></li><li class="tab"><a href="#porównanie-fontów-i-ich-rozmiarów-3">Tracker i Deskbar: Noto Sans Display 12</a></li><li class="tab"><a href="#porównanie-fontów-i-ich-rozmiarów-4">Tracker i Deskbar: Liberation Sans 14</a></li></ul><div class="tab-content"><div class="tab-pane active" id="porównanie-fontów-i-ich-rozmiarów-1"><p><img src="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/terminal_fonty_1.png" alt="Noto Sans Mono 12"></p></div><div class="tab-pane" id="porównanie-fontów-i-ich-rozmiarów-2"><p><img src="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/terminal_fonty_2.png" alt="DejaVu Mono 14"></p></div><div class="tab-pane" id="porównanie-fontów-i-ich-rozmiarów-3"><p><img src="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/tracker_deskbar_1.png" alt="Noto Sans Display 12"></p></div><div class="tab-pane" id="porównanie-fontów-i-ich-rozmiarów-4"><p><img src="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/tracker_deskbar_2.png" alt="Liberation Sans 14"></p></div></div></div>
+<a id="more"></a>
+<p>Eksperymentowałem także z fontami szeryfowymi, zwłaszcza z ich pogrubionymi wersjami. Wygląda to nadwyraz interesująco, jednakże nie umiem się zdecydować. Która opcja przyjemniej prezentuje się dla oka? Na razie korzystam z pierwszej.</p>
+<div class="tabs" id="porównanie-fontów-i-ich-rozmiarów-2"><ul class="nav-tabs"><li class="tab active"><a href="#porównanie-fontów-i-ich-rozmiarów-2-1">Tracker i Deskbar: Liberation Sans 14</a></li><li class="tab"><a href="#porównanie-fontów-i-ich-rozmiarów-2-2">Tracker i Deskbar: Liberation Serif 14</a></li></ul><div class="tab-content"><div class="tab-pane active" id="porównanie-fontów-i-ich-rozmiarów-2-1"><p><img src="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/liberation_sans_14.png" alt="Liberation Sans 14"></p></div><div class="tab-pane" id="porównanie-fontów-i-ich-rozmiarów-2-2"><p><img src="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/liberation_serif_14.png" alt="Liberation Serif 14"></p></div></div></div>
+<h3 id="Instalowanie-fontow-w-systemie-operacyjnym-Haiku"><a class="header-anchor" href="#Instalowanie-fontow-w-systemie-operacyjnym-Haiku">¶</a>Instalowanie fontów w systemie operacyjnym Haiku.</h3>
+<p>Należy nadmienić, że fonty <strong>Liberation</strong> i <strong>DejaVu</strong> znajdują się w <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Haiku_Depot"><strong>HaikuDepot</strong></a>, toteż nie trzeba ich pobierać z zewnętrznych stron. Posiada to tę zaletę, iż nie musimy ręcznie sprawdzać czy pojawiły się ich aktualizacje, jakie np. poprawiają rysowanie poszczególnych glifów.</p>
+<p><strong>Jeżeli chcemy posłużyć się konkretnym fontem</strong>, w czasie redagowania dokumentu, <strong>a nie znajduje się on w repozytorium</strong>, to możemy udać się na stronę domową konkretnego projektu Open Source i <strong>zwyczajnie pobrać archiwum zip lub tar.gz</strong>, a następnie je <strong>wypakować do odpowiedniego katalogu</strong>. Aktualnie nie ma znaczenia gdzie je zainstalujemy bowiem Haiku posiada tylko jednego użytkownika (i nie wiadomo czy będzie w ogóle <em>multi user</em>, być może ktoś wymyśli coś lepszego od konceptu z UNIXa). Niemniej należy być tego świadomym, na przyszłość:</p>
+<div class="mermaid">
+graph TD
+A(Instalowanie fontów w Haiku) --&gt; B[Globalnie w  systemie  czy dla konkretnego użytkownika?]
+B --&gt;|Systemowo| C[&quot;&#x2F;boot&#x2F;system&#x2F;non-packaged&#x2F;data&#x2F;fonts&#x2F;&quot;]
+B --&gt;|Użytkownika| D[&quot;&#x2F;boot&#x2F;home&#x2F;config&#x2F;non-packaged&#x2F;data&#x2F;fonts&#x2F;&quot;]
+</div>
+<p>Jednym z moich ulubionych narzędzi na Haiku jest <strong>FontBoy</strong>, o jakim wspominałem w swoich impresjach z <a href="/18/07/2020/Haiku-R1-beta2-na-produkcji/"><strong>Haiku R1/beta2</strong></a>.</p>
+<p><img src="/18/07/2020/Haiku-R1-beta2-na-produkcji/fontboy.png" alt="FontBoy to niewielki program, jednakże sprawia przyjemne dla oka wrażenie, kiedy chcemy przejrzeć kroje pisma!"></p>
+<p>Następnie należy załadować na nowo <strong>Trackera</strong> i <strong>Deskbara</strong>. Najprościej jest zabić ich procesy, automatycznie wystartują!</p>
+<h3 id="Zmiana-fontow-na-τέχνη"><a class="header-anchor" href="#Zmiana-fontow-na-τέχνη">¶</a>Zmiana fontów na τέχνη.</h3>
+<p>Wgrałem na <strong>τέχνη</strong> własne fonty. Różnice pomiędzy nimi łatwo zauważyć po powiększeniu poszczególnych obrazków. Wydaje mi się, że <strong>na tablecie z Androidem</strong> wykorzystywany <strong>jest font Roboto</strong>. Niepewność bierze się z racji niewielkich możliwości konfiguracji systemu mobilnego, na jakie zdecydował się producent, toteż nigdzie nie jest to zaznaczone. Dla <strong>tytułu strony i nagłówków</strong> wybrałem <strong>font szeryfowy Liberation</strong>, a <strong>dla tekstu bezszeryfowy</strong> z tej samej rodziny bowiem wyczytałem, że <strong>fonty bezszeryfowe (sans) mniej męczą wzrok</strong>, skoro nie posiadają ozdobników. Przynajmniej <strong>na ekranach o niskiej rozdzielczości</strong>. Używam niestety 1366x768.</p>
+<div class="tabs" id="porównanie-fontów-na-τέχνη"><ul class="nav-tabs"><li class="tab active"><a href="#porównanie-fontów-na-τέχνη-1">Logo: Domyślny font na tablecie z Androidem</a></li><li class="tab"><a href="#porównanie-fontów-na-τέχνη-2">Logo: Liberation Serif</a></li><li class="tab"><a href="#porównanie-fontów-na-τέχνη-3">Artykuł: Domyślny font na tablecie z Androidem</a></li><li class="tab"><a href="#porównanie-fontów-na-τέχνη-4">Artykuł: Fonty Liberation Serif i Sans</a></li></ul><div class="tab-content"><div class="tab-pane active" id="porównanie-fontów-na-τέχνη-1"><p><img src="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/techne_logo_1.jpg" alt="Domyślny font na tablecie z Androidem"></p></div><div class="tab-pane" id="porównanie-fontów-na-τέχνη-2"><p><img src="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/techne_logo_2.jpg" alt="Logo: Liberation Serif"></p></div><div class="tab-pane" id="porównanie-fontów-na-τέχνη-3"><p><img src="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/techne_artykul_1.jpg" alt="Artykuł: Domyślny font na tablecie z Androidem"></p></div><div class="tab-pane" id="porównanie-fontów-na-τέχνη-4"><p><img src="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/techne_artykul_2.jpg" alt="Artykuł: Fonty Liberation Serif i Sans"></p></div></div></div>
+<p>Uważam, że fonty szeryfowe w nagłówkach, a bezszeryfowe w całym tekście, uatrakcyjniają wizualnie tekst. <strong>Za sprawą kontrastu pomiędzy nimi.</strong> Następnie szeryfowe logo wygląda intrygująco, ponadto czudysłowy są teraz lepiej wydrukowane na ekranie, w moim odczuciu. Wygodniej także się czyta, korzystniej z pewnością wygląda <strong>litera D</strong>. Jakby litery były teraz istotnie, w tejże odrobinie, szersze, nie aż tak wydłużone.</p>
+<p>Jako że nie umiem rysować to uznałem, że kreatywnym wyjściem z sytuacji będzie zdecydowanie się na odpowiedni font i grecki alfabet. Był to dobry pomysł, z tego co widzę.</p>
+<h3 id="Konfigurowanie-tematu-Next-z-ukladem-Gemini-na-silniku-Hexo"><a class="header-anchor" href="#Konfigurowanie-tematu-Next-z-ukladem-Gemini-na-silniku-Hexo">¶</a>Konfigurowanie tematu Next, z układem Gemini, na silniku Hexo.</h3>
+<p>Aby mieć pewność, że <strong>τέχνη</strong> wyświetla się tak samo na każdym systemie, urządzeniu czy w jakiejkolwiek przeglądarce WWW, to musiałem dodać ręcznie swoje fonty do plików konfiguracyjnych wybranego przeze mnie tematu. Oznacza to, że fonty są każdorazowo pobierane z serwera, gdy ktoś mnie odwiedza, na jakim znajduje się moja strona, co zwiększa obciążenie dostępnego mi transferu. Jednakże warto! Dużo osób korzysta z <a target="_blank" rel="noopener" href="https://fonts.google.com/"><strong>Google Fonts</strong></a>, ale nie odnalazłem tam <strong>fontów Liberation</strong> i pomyślałem, że jak ich usługa padnie, to użytkownik strony będzie „wycofany” (fallback) do krojów pisma jakie ma zainstalowane u siebie, co niekorzystnie wpłynie na odbiór.</p>
+<p>Nie wszystko było dla mnie jasne, trochę czasu spędziłem na Google i przeglądałem dokumentację. Wspomnę, że Hexo jest popularne, ale bardziej w Chinach, przez co na GitHubach ludzi, w ich ReadMe!, często widnieją same <em>krzaki</em>. Finalnie ustawiłem fonty metodą prób i błędów. Poniżej parę „instrukcji”, jakie mogą pomóc osobom chcącym uzyskać podobne efekty, przy użyciu analogicznych narzędzi.</p>
+<p>Korzystam z <a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/getting-started/configuration.html"><strong>alternatywnej metody konfiguracji</strong></a>. To znaczy, że nie edytuję plików w katalogu z tematem, lecz w odpowiednich ścieżkach, przez co domyślne ustawienia są nadpisywane w czasie generowania strony. Ma to tę zaletę, że nie muszę poprawiać plików tematu po każdym <strong>git pull</strong>! W każdym razie, zależnie od silnika i tematu, występują różnice, jakie należy zaadresować we własnym zakresie (tj. uwzględnić różnice w ścieżkach).</p>
+<p>W pierwszej kolejnośc w <strong>/source</strong> utworzyłem dwa katalogi - <strong>fonts</strong> i <strong>_data</strong>. Do pierwszego wypakowałem fonty, w drugim utworzyłem dwa pliki - <strong>styles.styl</strong> i <strong>variables.styl</strong>. Następnie włączyłem je w pliku konfiguracyjnym tematu - <strong>_config.next.yml</strong>:</p>
+<h3 id="config-next-yml"><a class="header-anchor" href="#config-next-yml">¶</a>_config.next.yml</h3>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Define custom file paths.</span></span><br><span class="line"><span class="comment"># Create your custom files in site directory `source/_data` and uncomment needed files below.</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.njk</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.njk</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.njk</span></span><br><span class="line">  <span class="comment">#postMeta: source/_data/post-meta.njk</span></span><br><span class="line">  <span class="comment">#postBodyEnd: source/_data/post-body-end.njk</span></span><br><span class="line">  <span class="comment">#footer: source/_data/footer.njk</span></span><br><span class="line">  <span class="comment">#bodyEnd: source/_data/body-end.njk</span></span><br><span class="line">  <span class="attr">variable:</span> <span class="string">source/_data/variables.styl</span></span><br><span class="line">  <span class="comment">#mixin: source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">source/_data/styles.styl</span></span><br></pre></td></tr></table></figure>
+<p>W tym samym pliku ustawiłem też fonty (w tym momencie będę one działały tylko na naszym komputrze, strona jeszcze <em>nie wie</em> gdzie są fonty):</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Uri of fonts host, e.g. https://fonts.googleapis.com (Default).</span></span><br><span class="line">  <span class="attr">host:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font options:</span></span><br><span class="line">  <span class="comment"># `external: true` will load this font family from `host` above.</span></span><br><span class="line">  <span class="comment"># `family: Times New Roman`. Without any quotes.</span></span><br><span class="line">  <span class="comment"># `size: x.x`. Use `em` as unit. Default: 1 (16px)</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Global font settings used for all elements inside &lt;body&gt;.</span></span><br><span class="line">  <span class="attr">global:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Liberation</span> <span class="string">Sans</span> <span class="comment">#Lato</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for site title (.site-title).</span></span><br><span class="line">  <span class="attr">title:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Liberation</span> <span class="string">Serif</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for headlines (&lt;h1&gt; to &lt;h6&gt;).</span></span><br><span class="line">  <span class="attr">headings:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Liberation</span> <span class="string">Serif</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for posts (.post-body).</span></span><br><span class="line">  <span class="attr">posts:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Liberation</span> <span class="string">Sans</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for &lt;code&gt; and code blocks.</span></span><br><span class="line">  <span class="attr">codes:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">DejaVu</span> <span class="string">Sans</span> <span class="string">Mono</span></span><br></pre></td></tr></table></figure>
+<p><strong>variables.styl</strong> był mi potrzebny tylko po to, aby zwiększyć rozmiar nazwy strony:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$font-size-title                = (hexo-config(&#x27;font.enable&#x27;) and hexo-config(&#x27;font.title.size&#x27;) is a &#x27;unit&#x27;) ? unit(hexo-config(&#x27;font.title.size&#x27;), em) : 4em;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="font-face"><a class="header-anchor" href="#font-face">¶</a>@font-face</h3>
+<p>W pliku <strong>styles.styl</strong> wpisałem następujące (teraz strona <em>już wie</em> gdzie są fonty):</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">&#x27;Liberation Sans&#x27;</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;../fonts/LiberationSans-Regular.ttf&#x27;</span>) <span class="built_in">format</span>(<span class="string">&#x27;truetype&#x27;</span>);</span><br><span class="line">    <span class="attribute">font-weight</span>: normal;</span><br><span class="line">    <span class="attribute">font-style</span>: normal;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">&#x27;Liberation Sans&#x27;</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;../fonts/LiberationSans-Bold.ttf&#x27;</span>) <span class="built_in">format</span>(<span class="string">&#x27;truetype&#x27;</span>);</span><br><span class="line">    <span class="attribute">font-weight</span>: bold;</span><br><span class="line">    <span class="attribute">font-style</span>: normal;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">&#x27;Liberation Sans&#x27;</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;../fonts/LiberationSans-BoldItalic.ttf&#x27;</span>) <span class="built_in">format</span>(<span class="string">&#x27;truetype&#x27;</span>);</span><br><span class="line">    <span class="attribute">font-weight</span>: bold;</span><br><span class="line">    <span class="attribute">font-style</span>: italic;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">&#x27;Liberation Sans&#x27;</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;../fonts/LiberationSans-Italic.ttf&#x27;</span>) <span class="built_in">format</span>(<span class="string">&#x27;truetype&#x27;</span>);</span><br><span class="line">    <span class="attribute">font-weight</span>: normal;</span><br><span class="line">    <span class="attribute">font-style</span>: italic;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">&#x27;Liberation Serif&#x27;</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;../fonts/LiberationSerif-Regular.ttf&#x27;</span>) <span class="built_in">format</span>(<span class="string">&#x27;truetype&#x27;</span>);</span><br><span class="line">    <span class="attribute">font-weight</span>: normal;</span><br><span class="line">    <span class="attribute">font-style</span>: normal;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">&#x27;Liberation Serif&#x27;</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;../fonts/LiberationSerif-Bold.ttf&#x27;</span>) <span class="built_in">format</span>(<span class="string">&#x27;truetype&#x27;</span>);</span><br><span class="line">    font-weight: bold;;</span><br><span class="line">    <span class="selector-tag">font-style</span>: <span class="selector-tag">normal</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">&#x27;Liberation Serif&#x27;</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;../fonts/LiberationSerif-BoldItalic.ttf&#x27;</span>) <span class="built_in">format</span>(<span class="string">&#x27;truetype&#x27;</span>);</span><br><span class="line">    <span class="attribute">font-weight</span>: bold;</span><br><span class="line">    <span class="attribute">font-style</span>: italic;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">&#x27;Liberation Serif&#x27;</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;../fonts/LiberationSerif-Italic.ttf&#x27;</span>) <span class="built_in">format</span>(<span class="string">&#x27;truetype&#x27;</span>);</span><br><span class="line">    <span class="attribute">font-weight</span>: normal;</span><br><span class="line">    <span class="attribute">font-style</span>: italic;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">&#x27;DejaVu Sans Mono&#x27;</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;../fonts/DejaVuSansMono.ttf&#x27;</span>) <span class="built_in">format</span>(<span class="string">&#x27;truetype&#x27;</span>);</span><br><span class="line">    <span class="attribute">font-weight</span>: normal;</span><br><span class="line">    <span class="attribute">font-style</span>: normal;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">&#x27;DejaVu Sans Mono&#x27;</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;../fonts/DejaVuSansMono-Bold.ttf&#x27;</span>) <span class="built_in">format</span>(<span class="string">&#x27;truetype&#x27;</span>);</span><br><span class="line">    <span class="attribute">font-weight</span>: bold;</span><br><span class="line">    <span class="attribute">font-style</span>: normal;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">&#x27;DejaVu Sans Mono&#x27;</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;../fonts/DejaVuSansMono-BoldOblique.ttf&#x27;</span>) <span class="built_in">format</span>(<span class="string">&#x27;truetype&#x27;</span>);</span><br><span class="line">    <span class="attribute">font-weight</span>: bold;</span><br><span class="line">    <span class="attribute">font-style</span>: oblique;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">&#x27;DejaVu Sans Mono&#x27;</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;../fonts/DejaVuSansMono-Oblique.ttf&#x27;</span>) <span class="built_in">format</span>(<span class="string">&#x27;truetype&#x27;</span>);</span><br><span class="line">    <span class="attribute">font-weight</span>: normal;</span><br><span class="line">    <span class="attribute">font-style</span>: oblique;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Unexpected-EOS"><a class="header-anchor" href="#Unexpected-EOS">¶</a>Unexpected EOS!</h3>
+<p>W czasie <strong>parsowania CSS</strong> może wystąpić błąd - <strong>Unexpected EOS</strong>. Objawia się on na ogół, gdy <strong>przemieszamy spacje z tabulacjami</strong> lub <strong>zapomnimy o nawiasie</strong>. Poniżej widać błąd tego typu. Pierwotnie byłem przekonany, że to jakiś błąd związany z rysowaniem na Haiku i rozpocząłem <strong><em>googlefest</em></strong>… trzy godziny później zauważyłem, że jednak brakuje nawiasu. <strong>Wydruki w Terminalu nie były zbyt pomocne. Zwracały, że problem występuje w ostatniej linii!!!</strong></p>
+<p><img src="/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/to_nie_bug_brak_nawiasu.png" alt="Brakujący nawias }."></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>Autor tekstu:  </strong>Przemysław Pintal
+  </li>
+  <li class="post-copyright-link">
+      <strong>Link do tekstu: </strong>
+      <a href="https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/" title="Typografia. Dobór fontów w Haiku i kroje pisma w internecie.">https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Prawa autorskie:  </strong>Wszystkie artykuły na tej stronie dystrybuowane są na licencji <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> chyba że wskazano inaczej.
+  </li>
+</ul>
+</div>
+
+          
+
+  <div class="followme">
+    <span>Zapraszam na pozostałe kanały dystrybucji treści</span>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://twitter.com/premislaus1988">
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+
+            <span class="label">Twitter</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/rss.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+          <div class="post-tags">
+              <a href="/tags/Haiku/" rel="tag"><i class="fa fa-tag"></i> Haiku</a>
+              <a href="/tags/UX/" rel="tag"><i class="fa fa-tag"></i> UX</a>
+              <a href="/tags/Programowanie/" rel="tag"><i class="fa fa-tag"></i> Programowanie</a>
+              <a href="/tags/Wzornictwo/" rel="tag"><i class="fa fa-tag"></i> Wzornictwo</a>
+              <a href="/tags/WebDev/" rel="tag"><i class="fa fa-tag"></i> WebDev</a>
+              <a href="/tags/Lifestyle/" rel="tag"><i class="fa fa-tag"></i> Lifestyle</a>
+              <a href="/tags/Typografia/" rel="tag"><i class="fa fa-tag"></i> Typografia</a>
+              <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
+              <a href="/tags/CSS/" rel="tag"><i class="fa fa-tag"></i> CSS</a>
+              <a href="/tags/Next/" rel="tag"><i class="fa fa-tag"></i> Next</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/03/08/2020/Beton-brut-WebDev/" rel="prev" title="Béton brut WebDev">
+                  <i class="fa fa-chevron-left"></i> Béton brut WebDev
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/06/08/2020/Lirykalia/" rel="next" title="Art of Trance: Lirykalia">
+                  Art of Trance: Lirykalia <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+  
+  
+  
+
+
+
+      
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      
+
+      
+
+<div class="copyright">
+  
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-globe"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Przemysław Pintal</span>
+</div>
+  <div class="powered-by">Napędzane przez <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="//cdn.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<script>
+document.querySelectorAll('.pdfobject-container').forEach(element => {
+  const url = element.dataset.target;
+  const pdfOpenParams = {
+    navpanes : 0,
+    toolbar  : 0,
+    statusbar: 0,
+    pagemode : 'thumbs',
+    view     : 'FitH'
+  };
+  const pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+  const fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+
+  if (NexT.utils.supportsPDFs()) {
+    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
+  } else {
+    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
+  }
+});
+</script>
+
+
+<script>
+if (document.querySelectorAll('.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8.6.4/dist/mermaid.min.js', () => {
+    mermaid.init({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    }, '.mermaid');
+  }, window.mermaid);
+}
+</script>
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://techne-1.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://premislaus.github.io/05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/";
+    this.page.identifier = "05/08/2020/Typografia-fontow-w-Haiku-i-kroje-pisma-w-internecie/";
+    this.page.title = "Typografia. Dobór fontów w Haiku i kroje pisma w internecie.";
+    };
+  NexT.utils.loadComments('#disqus_thread', () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://techne-1.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
+</script>
+
+</body>
+</html>
