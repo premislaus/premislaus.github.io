@@ -1,108 +1,94 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>τέχνη • Posts by &#34;erik satie&#34; tag</title>
-        <link>https://premislaus.github.io</link>
-        <description></description>
-        <language>pl</language>
-        <pubDate>Thu, 25 Feb 2021 19:50:09 +0100</pubDate>
-        <lastBuildDate>Thu, 25 Feb 2021 19:50:09 +0100</lastBuildDate>
-        <category>BSD</category>
-        <category>Haiku</category>
-        <category>UX</category>
-        <category>Programowanie</category>
-        <category>Brutalizm</category>
-        <category>Filozofia</category>
-        <category>Wzornictwo</category>
-        <category>WebDev</category>
-        <category>Lifestyle</category>
-        <category>Eros</category>
-        <category>Metafizyka</category>
-        <category>Paged Out!</category>
-        <category>e-zin</category>
-        <category>Demoscena</category>
-        <category>Ernst Jünger</category>
-        <category>Leo Strauss</category>
-        <category>Oswald Spengler</category>
-        <category>Heidegger</category>
-        <category>Nietzsche</category>
-        <category>Roland Barthes</category>
-        <category>Dasein</category>
-        <category>Rilke</category>
-        <category>digiKam</category>
-        <category>Depresja</category>
-        <category>Psychopharmakon</category>
-        <category>Psychiatryk</category>
-        <category>Albert Camus</category>
-        <category>Erik Satie</category>
-        <category>Pierre Drieu la Rochelle</category>
-        <category>Resentyment</category>
-        <category>Jura</category>
-        <category>Diarystyka</category>
-        <category>Max Stirner</category>
-        <category>Tomasz Gabiś</category>
-        <category>Jaromir Brejdak</category>
-        <category>Zaratustra</category>
-        <category>Gilles Deleuze</category>
-        <category>Trakl</category>
-        <category>King Dude</category>
-        <category>Epistolografia</category>
-        <category>Juliette</category>
-        <category>Daemonia Nymphe</category>
-        <category>Koder</category>
-        <category>Scintilla</category>
-        <category>Birch Book</category>
-        <category>Mitologia</category>
-        <category>Psychonautyka</category>
-        <category>Trance</category>
-        <category>Forseti</category>
-        <category>Neofolk</category>
-        <category>Andreas Ritter</category>
-        <category>Pier Paolo Pasolini</category>
-        <category>Cukunft</category>
-        <category>Tokarczuk</category>
-        <category>Houellebecq</category>
-        <category>Literatura</category>
-        <category>Psychoparmakon</category>
-        <category>Paul-Albert Besnard</category>
-        <category>Malarstwo</category>
-        <category>Heathcliff</category>
-        <category>Rammstein</category>
-        <category>Społeczeństwo spektaklu</category>
-        <category>Guy Debord</category>
-        <category>Burroughs</category>
-        <category>Klaus Schulze</category>
-        <category>Robert Filliou</category>
-        <category>Ekspresjonizm</category>
-        <category>Typografia</category>
-        <category>Hexo</category>
-        <category>CSS</category>
-        <category>Next</category>
-        <category>Zimna fala</category>
-        <category>Leopold Staff</category>
-        <category>Creative Commons</category>
-        <category>Julia Kristeva</category>
-        <category>Jacques Derrida</category>
-        <category>Seneka Młodszy</category>
-        <category>Foucault</category>
-        <category>Giorgio Colli</category>
-        <category>Georges Perec</category>
-        <item>
-            <guid isPermalink="true">https://premislaus.github.io/25/02/2021/Ernstfall/</guid>
-            <title>Ernstfall. Samobójstwo Alaina Renoy.</title>
-            <link>https://premislaus.github.io/25/02/2021/Ernstfall/</link>
-            <category>Filozofia</category>
-            <category>Eros</category>
-            <category>Metafizyka</category>
-            <category>Ernst Jünger</category>
-            <category>Dasein</category>
-            <category>Psychopharmakon</category>
-            <category>Albert Camus</category>
-            <category>Erik Satie</category>
-            <category>Pierre Drieu la Rochelle</category>
-            <category>Resentyment</category>
-            <pubDate>Thu, 25 Feb 2021 19:50:09 +0100</pubDate>
-            <description><![CDATA[ &lt;h3 id=&#34;Le-Feu-follet&#34;&gt;&lt;a class=&#34;header-anchor&#34; href=&#34;#Le-Feu-follet&#34;&gt;¶&lt;/a&gt;&lt;em&gt;Le Feu follet&lt;/em&gt;&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://premislaus.github.io</id>
+    <title>τέχνη • Posts by &#34;carl schmitt&#34; tag</title>
+    <link href="https://premislaus.github.io" />
+    <updated>2021-02-25T18:50:09.000Z</updated>
+    <category term="BSD" />
+    <category term="Haiku" />
+    <category term="UX" />
+    <category term="Programowanie" />
+    <category term="Brutalizm" />
+    <category term="Filozofia" />
+    <category term="Wzornictwo" />
+    <category term="WebDev" />
+    <category term="Lifestyle" />
+    <category term="Eros" />
+    <category term="Metafizyka" />
+    <category term="Paged Out!" />
+    <category term="e-zin" />
+    <category term="Demoscena" />
+    <category term="Ernst Jünger" />
+    <category term="Leo Strauss" />
+    <category term="Oswald Spengler" />
+    <category term="Heidegger" />
+    <category term="Nietzsche" />
+    <category term="Roland Barthes" />
+    <category term="Dasein" />
+    <category term="Rilke" />
+    <category term="digiKam" />
+    <category term="Depresja" />
+    <category term="Psychopharmakon" />
+    <category term="Psychiatryk" />
+    <category term="Albert Camus" />
+    <category term="Carl Schmitt" />
+    <category term="Pierre Drieu la Rochelle" />
+    <category term="Resentyment" />
+    <category term="Jura" />
+    <category term="Diarystyka" />
+    <category term="Max Stirner" />
+    <category term="Tomasz Gabiś" />
+    <category term="Jaromir Brejdak" />
+    <category term="Zaratustra" />
+    <category term="Gilles Deleuze" />
+    <category term="Trakl" />
+    <category term="King Dude" />
+    <category term="Epistolografia" />
+    <category term="Juliette" />
+    <category term="Daemonia Nymphe" />
+    <category term="Koder" />
+    <category term="Scintilla" />
+    <category term="Birch Book" />
+    <category term="Mitologia" />
+    <category term="Psychonautyka" />
+    <category term="Trance" />
+    <category term="Forseti" />
+    <category term="Neofolk" />
+    <category term="Andreas Ritter" />
+    <category term="Pier Paolo Pasolini" />
+    <category term="Cukunft" />
+    <category term="Tokarczuk" />
+    <category term="Houellebecq" />
+    <category term="Literatura" />
+    <category term="Psychoparmakon" />
+    <category term="Paul-Albert Besnard" />
+    <category term="Malarstwo" />
+    <category term="Heathcliff" />
+    <category term="Rammstein" />
+    <category term="Społeczeństwo spektaklu" />
+    <category term="Guy Debord" />
+    <category term="Burroughs" />
+    <category term="Klaus Schulze" />
+    <category term="Robert Filliou" />
+    <category term="Ekspresjonizm" />
+    <category term="Typografia" />
+    <category term="Hexo" />
+    <category term="CSS" />
+    <category term="Next" />
+    <category term="Zimna fala" />
+    <category term="Leopold Staff" />
+    <category term="Creative Commons" />
+    <category term="Julia Kristeva" />
+    <category term="Jacques Derrida" />
+    <category term="Seneka Młodszy" />
+    <category term="Foucault" />
+    <category term="Giorgio Colli" />
+    <category term="Georges Perec" />
+    <entry>
+        <id>https://premislaus.github.io/25/02/2021/Ernstfall/</id>
+        <title>Ernstfall. Samobójstwo Alaina Renoy.</title>
+        <link rel="alternate" href="https://premislaus.github.io/25/02/2021/Ernstfall/"/>
+        <content type="html">&lt;h3 id=&#34;Le-Feu-follet&#34;&gt;&lt;a class=&#34;header-anchor&#34; href=&#34;#Le-Feu-follet&#34;&gt;¶&lt;/a&gt;&lt;em&gt;Le Feu follet&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;Co gryzło Alaina Renoy, że się zabił&lt;sup class=&#34;footnote-ref&#34;&gt;&lt;a href=&#34;#fn1&#34; id=&#34;fnref1&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;? Nie chodzi o to, kolokwialnie, że nie dostawał nudesów – kochały go kobiety, ale nie ta jedyna; samemu otrzymałem wczoraj, jednakże odmówiłem spoglądania (żadna świętoszkowatość), za to wysępiłem zdjęcie rentgenowskie na jakim widać, iż z sutków wystają kolczyki, wobec tego życie mnie pozytywnie zaskoczyło! Odnośnie zblazowania, nie ono jest winne, zwykle pozostaje symptomem szeregu spiętrzonych, biegiem historii, zdarzeń, a raczej nie-zdarzeń – ich braku, toteż wypowiedziane poniewczasie – Ja bym nie wypuściła! – smakuje już jak zwietrzałe wino.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/25/02/2021/Ernstfall/IMG_20190511_174319045_v4.jpg&#34; alt=&#34;„Jakim by człowiek nie hołdował wartościom, jedynie powierzchowność mogła zakotwiczyć je w świadomości ludzi”, Ernst Jünger.&#34;&gt;&lt;/p&gt;
 &lt;a id=&#34;more&#34;&gt;&lt;/a&gt;
@@ -134,7 +120,17 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="Filozofia" />
+        <category term="Eros" />
+        <category term="Metafizyka" />
+        <category term="Ernst Jünger" />
+        <category term="Dasein" />
+        <category term="Psychopharmakon" />
+        <category term="Albert Camus" />
+        <category term="Carl Schmitt" />
+        <category term="Pierre Drieu la Rochelle" />
+        <category term="Resentyment" />
+        <updated>2021-02-25T18:50:09.000Z</updated>
+    </entry>
+</feed>
