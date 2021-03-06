@@ -27,15 +27,17 @@
     <category term="Dasein" />
     <category term="Rilke" />
     <category term="digiKam" />
-    <category term="Depresja" />
+    <category term="Diarystyka" />
     <category term="Psychopharmakon" />
     <category term="Psychiatryk" />
+    <category term="Nouvelle Vague" />
+    <category term="Jim Jarmusch" />
+    <category term="Zdzisław Beksiński" />
     <category term="Albert Camus" />
     <category term="Carl Schmitt" />
     <category term="Pierre Drieu la Rochelle" />
     <category term="Resentyment" />
     <category term="Jura" />
-    <category term="Diarystyka" />
     <category term="Max Stirner" />
     <category term="Tomasz Gabiś" />
     <category term="Jaromir Brejdak" />
@@ -154,6 +156,7 @@
         <category term="Ernst Jünger" />
         <category term="Leo Strauss" />
         <category term="Nietzsche" />
+        <category term="Diarystyka" />
         <category term="Seneka Młodszy" />
         <updated>2020-08-31T20:03:30.000Z</updated>
     </entry>
@@ -178,6 +181,7 @@
         <category term="Eros" />
         <category term="Metafizyka" />
         <category term="Dasein" />
+        <category term="Diarystyka" />
         <category term="Psychopharmakon" />
         <category term="Albert Camus" />
         <category term="Resentyment" />
@@ -360,8 +364,8 @@ Zabrakło mi siły, aby wzdychnąć. Nie powiedziałem nic. I nie mogłem uwierz
         <category term="Metafizyka" />
         <category term="Nietzsche" />
         <category term="Rilke" />
-        <category term="Jura" />
         <category term="Diarystyka" />
+        <category term="Jura" />
         <updated>2020-08-11T22:10:24.000Z</updated>
     </entry>
     <entry>
@@ -524,7 +528,7 @@ Rysą chorej niemocy skażone, pęknięte.&lt;/p&gt;
 </content>
         <category term="Rilke" />
         <category term="digiKam" />
-        <category term="Depresja" />
+        <category term="Diarystyka" />
         <updated>2020-08-07T03:37:14.000Z</updated>
     </entry>
     <entry>

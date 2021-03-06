@@ -27,15 +27,17 @@
     <category term="Dasein" />
     <category term="Rilke" />
     <category term="digiKam" />
-    <category term="Depresja" />
+    <category term="Diarystyka" />
     <category term="Psychopharmakon" />
     <category term="Psychiatryk" />
+    <category term="Nouvelle Vague" />
+    <category term="Jim Jarmusch" />
+    <category term="Zdzisław Beksiński" />
     <category term="Albert Camus" />
     <category term="Carl Schmitt" />
     <category term="Pierre Drieu la Rochelle" />
     <category term="Resentyment" />
     <category term="Jura" />
-    <category term="Diarystyka" />
     <category term="Max Stirner" />
     <category term="Tomasz Gabiś" />
     <category term="Jaromir Brejdak" />
@@ -96,7 +98,7 @@
 </content>
         <category term="Rilke" />
         <category term="digiKam" />
-        <category term="Depresja" />
+        <category term="Diarystyka" />
         <updated>2020-08-07T03:37:14.000Z</updated>
     </entry>
 </feed>
