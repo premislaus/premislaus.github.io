@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://premislaus.github.io/09/03/2021/Sens/</loc>
+    
+    <lastmod>2021-03-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://premislaus.github.io/09/03/2021/Queer/</loc>
     
     <lastmod>2021-03-09</lastmod>
@@ -1105,14 +1112,14 @@
   </url>
   
   <url>
-    <loc>https://premislaus.github.io/categories/Liryzm/Proza/Speed-Generation/</loc>
+    <loc>https://premislaus.github.io/categories/Fotografia/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://premislaus.github.io/categories/Fotografia/</loc>
+    <loc>https://premislaus.github.io/categories/Liryzm/Proza/Speed-Generation/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
