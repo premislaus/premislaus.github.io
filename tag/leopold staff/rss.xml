@@ -79,6 +79,7 @@
         <category>Rammstein</category>
         <category>Społeczeństwo spektaklu</category>
         <category>Guy Debord</category>
+        <category>Jacques Derrida</category>
         <category>Klaus Schulze</category>
         <category>Robert Filliou</category>
         <category>Ekspresjonizm</category>
@@ -88,9 +89,7 @@
         <category>Next</category>
         <category>Zimna fala</category>
         <category>Leopold Staff</category>
-        <category>Creative Commons</category>
         <category>Julia Kristeva</category>
-        <category>Jacques Derrida</category>
         <category>Seneka Młodszy</category>
         <category>Foucault</category>
         <category>Giorgio Colli</category>
@@ -103,10 +102,11 @@
             <category>Nietzsche</category>
             <category>Zimna fala</category>
             <category>Leopold Staff</category>
-            <category>Creative Commons</category>
             <pubDate>Sat, 08 Aug 2020 14:38:56 +0200</pubDate>
             <description><![CDATA[ &lt;p&gt;Szesnaście stron prozy którą napisałem sześć lat temu. Poprawiłem gramatykę, należycie sformatowałem, osadziłem fonty, usunąłem pojedyncze znaki na krańcach linii i pozbyłem się głupio brzmiących i niekonsekwentnie stosowanych inwersji. Jest to rozwinięcie prozą wiersza „Kowal” Leopolda Staffa.&lt;/p&gt;
-&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;
+&lt;div class=&#34;pdf-container&#34; data-target=&#34;/08/08/2020/Zimna-fala/Zimna_fala.pdf&#34; data-height=&#34;500px&#34;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;/08/08/2020/Zimna-fala/Zimna_fala.pdf&#34;&gt;Gdyby wtyczka obsługująca PeDeFy działała wadliwe, link do pobrania.&lt;/a&gt;&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;p&gt;Miało to być ze dwa razy dłuższe, a ekfrazy kwiatów bardziej rozwinięte, ale w trakcie pisania okazało się, że gdzieś to mogę puścić i obowiązuje limit znaków. Finalnie nigdzie to nie poszło, a ja porzuciłem oryginalny pomysł i zostawiłem jak jest. Treść, w zamierzeniu, miała oddać klimat &lt;a href=&#34;https://pl.wikipedia.org/wiki/Cold_wave&#34;&gt;zimnej fali&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote class=&#34;blockquote-center&#34;&gt;
 &lt;p&gt;Całą bezkształtną masę kruszców drogocennych,&lt;br&gt;
@@ -126,8 +126,6 @@ Rysą chorej niemocy skażone, pęknięte.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Leopold Staff, Kowal.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;/08/08/2020/Zimna-fala/Zimna_fala.pdf&#34;&gt;Gdyby wtyczka obsługująca PeDeFy działała wadliwe, link do pobrania.&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;pdfobject-container&#34; data-target=&#34;Zimna-fala/Zimna_fala.pdf&#34; data-height=&#34;500px&#34;&gt;&lt;/div&gt;
  ]]></description>
         </item>
     </channel>

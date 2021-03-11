@@ -76,6 +76,7 @@
     <category term="Rammstein" />
     <category term="Społeczeństwo spektaklu" />
     <category term="Guy Debord" />
+    <category term="Jacques Derrida" />
     <category term="Klaus Schulze" />
     <category term="Robert Filliou" />
     <category term="Ekspresjonizm" />
@@ -85,9 +86,7 @@
     <category term="Next" />
     <category term="Zimna fala" />
     <category term="Leopold Staff" />
-    <category term="Creative Commons" />
     <category term="Julia Kristeva" />
-    <category term="Jacques Derrida" />
     <category term="Seneka Młodszy" />
     <category term="Foucault" />
     <category term="Giorgio Colli" />
@@ -97,7 +96,9 @@
         <title>Zimna fala</title>
         <link rel="alternate" href="https://premislaus.github.io/08/08/2020/Zimna-fala/"/>
         <content type="html">&lt;p&gt;Szesnaście stron prozy którą napisałem sześć lat temu. Poprawiłem gramatykę, należycie sformatowałem, osadziłem fonty, usunąłem pojedyncze znaki na krańcach linii i pozbyłem się głupio brzmiących i niekonsekwentnie stosowanych inwersji. Jest to rozwinięcie prozą wiersza „Kowal” Leopolda Staffa.&lt;/p&gt;
-&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;
+&lt;div class=&#34;pdf-container&#34; data-target=&#34;/08/08/2020/Zimna-fala/Zimna_fala.pdf&#34; data-height=&#34;500px&#34;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;/08/08/2020/Zimna-fala/Zimna_fala.pdf&#34;&gt;Gdyby wtyczka obsługująca PeDeFy działała wadliwe, link do pobrania.&lt;/a&gt;&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;p&gt;Miało to być ze dwa razy dłuższe, a ekfrazy kwiatów bardziej rozwinięte, ale w trakcie pisania okazało się, że gdzieś to mogę puścić i obowiązuje limit znaków. Finalnie nigdzie to nie poszło, a ja porzuciłem oryginalny pomysł i zostawiłem jak jest. Treść, w zamierzeniu, miała oddać klimat &lt;a href=&#34;https://pl.wikipedia.org/wiki/Cold_wave&#34;&gt;zimnej fali&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote class=&#34;blockquote-center&#34;&gt;
 &lt;p&gt;Całą bezkształtną masę kruszców drogocennych,&lt;br&gt;
@@ -117,14 +118,11 @@ Rysą chorej niemocy skażone, pęknięte.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Leopold Staff, Kowal.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;/08/08/2020/Zimna-fala/Zimna_fala.pdf&#34;&gt;Gdyby wtyczka obsługująca PeDeFy działała wadliwe, link do pobrania.&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;pdfobject-container&#34; data-target=&#34;Zimna-fala/Zimna_fala.pdf&#34; data-height=&#34;500px&#34;&gt;&lt;/div&gt;
 </content>
         <category term="Eros" />
         <category term="Nietzsche" />
         <category term="Zimna fala" />
         <category term="Leopold Staff" />
-        <category term="Creative Commons" />
         <updated>2020-08-08T12:38:56.000Z</updated>
     </entry>
 </feed>

@@ -79,6 +79,7 @@
         <category>Rammstein</category>
         <category>Społeczeństwo spektaklu</category>
         <category>Guy Debord</category>
+        <category>Jacques Derrida</category>
         <category>Klaus Schulze</category>
         <category>Robert Filliou</category>
         <category>Ekspresjonizm</category>
@@ -88,9 +89,7 @@
         <category>Next</category>
         <category>Zimna fala</category>
         <category>Leopold Staff</category>
-        <category>Creative Commons</category>
         <category>Julia Kristeva</category>
-        <category>Jacques Derrida</category>
         <category>Seneka Młodszy</category>
         <category>Foucault</category>
         <category>Giorgio Colli</category>
@@ -108,7 +107,7 @@
             <description><![CDATA[ &lt;h3 id=&#34;Koder&#34;&gt;&lt;a class=&#34;header-anchor&#34; href=&#34;#Koder&#34;&gt;¶&lt;/a&gt;Koder&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/KapiX/Koder&#34;&gt;&lt;strong&gt;Koder&lt;/strong&gt;&lt;/a&gt;, autorstwa &lt;a href=&#34;https://github.com/KapiX&#34;&gt;&lt;strong&gt;KapiXa&lt;/strong&gt;&lt;/a&gt;, stanowi natywny edytor programistyczny dla &lt;a href=&#34;/18/07/2020/Haiku-R1-beta2-na-produkcji/&#34;&gt;&lt;strong&gt;systemu operacyjnego Haiku&lt;/strong&gt;&lt;/a&gt;, który został oparty o &lt;a href=&#34;https://www.scintilla.org/&#34;&gt;&lt;strong&gt;bibliotekę Scintilla&lt;/strong&gt;&lt;/a&gt;, jaka dostarcza &lt;a href=&#34;http://m.in&#34;&gt;m.in&lt;/a&gt;. wszelkie niezbędne formatowania programistom, w celu zachowania ich produktywności na właściwym poziomie. Koder w połączeniu z funkcją Haiku &lt;a href=&#34;https://www.haiku-os.org/docs/userguide/pl/gui.html#stack-tile&#34;&gt;&lt;strong&gt;Stack &amp;amp; Tile&lt;/strong&gt;&lt;/a&gt;, staje się nadwyraz potężnym narzędziem, dlatego że mogę przypinać okna bokami lub grupować je w karty. Toteż zapomniałem o istnieniu menedżerów okien wdrażających kafelkowe grupowanie okien, &lt;a href=&#34;https://i3wm.org/&#34;&gt;&lt;strong&gt;w stylu i3&lt;/strong&gt;&lt;/a&gt;, jakie miewają problemy z przedstawieniem okien swobodnych. Niejednokrotnie mam otwartych kilkanaście instancji Kodera, obok emulatora terminala, przeglądarki WWW WebPositive, klienta IRC Vision i pozostałych narzędzi wymaganych przeze mnie w procesie tworzenia. Koder pozostaje stabilny i zaraz po otwarciu &lt;strong&gt;zużywa zaledwie 4,22 MiB pamięci RAM&lt;/strong&gt;. Właśnie ta lekkość i wykorzystanie natywnego API, a także prawidłowe robienie jednej rzeczy, wydają się typowe dla polskiej myśli programistycznej &lt;strong&gt;(Kacper jest naszym rodakiem)&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/30/07/2020/Koder-0-5-3/koder_dark.png&#34; alt=&#34;Główne okno Kodera wraz ze stylem dark, przez co wygląda nowocześnie.&#34;&gt;&lt;/p&gt;
-&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;h3 id=&#34;Estetyka&#34;&gt;&lt;a class=&#34;header-anchor&#34; href=&#34;#Estetyka&#34;&gt;¶&lt;/a&gt;Estetyka&lt;/h3&gt;
 &lt;p&gt;Jestem wyjątkowo wdzięczny człowiekowi który utworzył styl kolorystyczny &lt;strong&gt;purpleriot&lt;/strong&gt; dla Kodera, jest on dla mnie czytelny, jak i cieszy oko estetycznie dobraną paletą barw. Przynajmniej jeśli chodzi o Markdown. Z ciekawości zmieniłem kolorowanie składni z Markdown na C++ i zacząłem wpisywać &lt;em&gt;#include&lt;/em&gt; i okazało się ono ledwie widoczne w tymże układzie barw. Po kilku eksperymentach zdecydowałem się jednak na układ dark. Ponadto Koder wykorzystuje płaskie ikony wektorowe dla paska narzędzi, &lt;a href=&#34;https://rawgit.com/HaikuArchives/ZumisIcons/master/myhaiku/&#34;&gt;&lt;strong&gt;autorstwa zuMiego&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/30/07/2020/Koder-0-5-3/koder_purpleriot.png&#34; alt=&#34;Główne okno Kodera, wraz ze stylem purpleriot.&#34;&gt;&lt;/p&gt;
