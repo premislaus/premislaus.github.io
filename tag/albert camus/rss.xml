@@ -16,8 +16,10 @@
         <category>Wzornictwo</category>
         <category>WebDev</category>
         <category>Lifestyle</category>
-        <category>Eros</category>
         <category>Metafizyka</category>
+        <category>Jännerwein</category>
+        <category>Neofolk</category>
+        <category>Eros</category>
         <category>Paged Out!</category>
         <category>e-zin</category>
         <category>Demoscena</category>
@@ -49,20 +51,19 @@
         <category>Trakl</category>
         <category>King Dude</category>
         <category>Ekspresjonizm</category>
+        <category>Mitologia</category>
+        <category>Daemonia Nymphe</category>
         <category>Epistolografia</category>
         <category>Robert Graves</category>
-        <category>Mitologia</category>
         <category>LGBTQ</category>
         <category>Queer</category>
         <category>Juliette</category>
-        <category>Daemonia Nymphe</category>
         <category>Koder</category>
         <category>Scintilla</category>
         <category>Birch Book</category>
         <category>Psychonautyka</category>
         <category>Trance</category>
         <category>Forseti</category>
-        <category>Neofolk</category>
         <category>Andreas Ritter</category>
         <category>Godra</category>
         <category>Emil Cioran</category>
@@ -76,6 +77,7 @@
         <category>Malarstwo</category>
         <category>Heathcliff</category>
         <category>Yukio Mishima</category>
+        <category>René Halkett</category>
         <category>Burroughs</category>
         <category>Rammstein</category>
         <category>Społeczeństwo spektaklu</category>
@@ -156,8 +158,8 @@
             <title>Ernstfall. Samobójstwo Alaina Renoy.</title>
             <link>https://premislaus.github.io/25/02/2021/Ernstfall/</link>
             <category>Filozofia</category>
-            <category>Eros</category>
             <category>Metafizyka</category>
+            <category>Eros</category>
             <category>Ernst Jünger</category>
             <category>Dasein</category>
             <category>Psychopharmakon</category>
@@ -206,8 +208,8 @@
             <link>https://premislaus.github.io/27/08/2020/PostmodernistycznyMiejskiStylZycia/</link>
             <category>Filozofia</category>
             <category>Lifestyle</category>
-            <category>Eros</category>
             <category>Metafizyka</category>
+            <category>Eros</category>
             <category>Dasein</category>
             <category>Diarystyka</category>
             <category>Psychopharmakon</category>
@@ -269,8 +271,8 @@
             <guid isPermalink="true">https://premislaus.github.io/10/08/2020/Seemann/</guid>
             <title>Seemann</title>
             <link>https://premislaus.github.io/10/08/2020/Seemann/</link>
-            <category>Eros</category>
             <category>Metafizyka</category>
+            <category>Eros</category>
             <category>Psychopharmakon</category>
             <category>Albert Camus</category>
             <category>Rammstein</category>

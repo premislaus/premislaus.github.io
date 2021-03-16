@@ -13,8 +13,10 @@
     <category term="Wzornictwo" />
     <category term="WebDev" />
     <category term="Lifestyle" />
-    <category term="Eros" />
     <category term="Metafizyka" />
+    <category term="Jännerwein" />
+    <category term="Neofolk" />
+    <category term="Eros" />
     <category term="Paged Out!" />
     <category term="e-zin" />
     <category term="Demoscena" />
@@ -46,20 +48,19 @@
     <category term="Trakl" />
     <category term="King Dude" />
     <category term="Ekspresjonizm" />
+    <category term="Mitologia" />
+    <category term="Daemonia Nymphe" />
     <category term="Epistolografia" />
     <category term="Robert Graves" />
-    <category term="Mitologia" />
     <category term="LGBTQ" />
     <category term="Queer" />
     <category term="Juliette" />
-    <category term="Daemonia Nymphe" />
     <category term="Koder" />
     <category term="Scintilla" />
     <category term="Birch Book" />
     <category term="Psychonautyka" />
     <category term="Trance" />
     <category term="Forseti" />
-    <category term="Neofolk" />
     <category term="Andreas Ritter" />
     <category term="Godra" />
     <category term="Emil Cioran" />
@@ -73,6 +74,7 @@
     <category term="Malarstwo" />
     <category term="Heathcliff" />
     <category term="Yukio Mishima" />
+    <category term="René Halkett" />
     <category term="Burroughs" />
     <category term="Rammstein" />
     <category term="Społeczeństwo spektaklu" />
@@ -129,8 +131,8 @@
 &lt;/section&gt;
 </content>
         <category term="Filozofia" />
-        <category term="Eros" />
         <category term="Metafizyka" />
+        <category term="Eros" />
         <category term="Ernst Jünger" />
         <category term="Dasein" />
         <category term="Psychopharmakon" />
